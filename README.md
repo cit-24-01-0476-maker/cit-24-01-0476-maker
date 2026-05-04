@@ -5,11 +5,8 @@
 -->
 
 <div align="center">
-  <!-- NEW LIVE HACKER/MATRIX COVER BANNER -->
-  <img src="https://user-images.githubusercontent.com/113350806/236842414-18101a37-92f5-4de7-a46d-eeaca6e16cbd.gif" alt="Cyber Security Banner" width="100%" style="border-radius: 15px; margin-bottom: 15px; border: 2px solid #00FF9D; box-shadow: 0 0 25px rgba(0, 255, 157, 0.3);" />
-
   <!-- ELITE AVATAR -->
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Hacker Avatar" width="130" height="130" style="border-radius: 50%; border: 3px solid #2CA5E0; box-shadow: 0 0 20px rgba(44, 165, 224, 0.4); margin-top: -10px;" />
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Hacker Avatar" width="150" height="150" style="border-radius: 50%; border: 3px solid #2CA5E0; box-shadow: 0 0 20px rgba(44, 165, 224, 0.4); margin-top: 15px; margin-bottom: 15px;" />
 
   <!-- NAME & TYPING ANIMATION -->
   <h1 style="font-size: 2.8em; margin-bottom: 0px; color: #FFFFFF; font-family: 'Courier New', monospace;">
@@ -87,7 +84,6 @@ As a highly driven **Cyber Security & Cloud Infrastructure Specialist** based in
 
 ### 📊 GitHub Telemetry & Global Impact
 
-<!-- STATS FIXED: Using Neon Green & Blue theme -->
 <p align="center">
   <a href="https://github.com/cit-24-01-0476-maker">
     <img src="https://github-readme-stats.vercel.app/api?username=cit-24-01-0476-maker&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF9D&icon_color=2CA5E0&text_color=c9d1d9" height="195" alt="GitHub Stats" />
@@ -145,6 +141,6 @@ I am actively open to discussions regarding:
 
 <!-- ANIMATED SEA / WATER WAVES EFFECT AT THE END -->
 <div align="center" style="margin-top: 20px;">
-  <!-- Styled with Neon Green and Cyber Blue gradient to match the new Banner -->
+  <!-- Styled with Neon Green and Cyber Blue gradient to match the Theme -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=00FF9D,2CA5E0&height=120&section=footer" width="100%" alt="Animated Water Waves" />
 </div>
