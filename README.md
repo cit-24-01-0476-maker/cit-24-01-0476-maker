@@ -1,7 +1,7 @@
 # Hi, I'm Kavindu Oshadha Perera 👋
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" alt="Robot" width="160" height="160" />
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Books.png" alt="Books" width="180" height="180" />
 </div>
 
 <h3 align="center">Next-Level Web Developer | Cloud Security | DevOps & Sec</h3>
