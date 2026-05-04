@@ -78,16 +78,10 @@ As a highly driven **Cyber Security & Cloud Infrastructure Specialist** based in
 
 ### 📊 GitHub Telemetry & Global Impact
 
-<table align="center" width="100%" style="border: none;">
-  <tr>
-    <td align="center" width="50%" style="padding: 5px;">
-      <img src="https://github-readme-stats.vercel.app/api?username=cit-24-01-0476-maker&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF9D&icon_color=2CA5E0&text_color=c9d1d9" alt="GitHub Stats" width="100%" />
-    </td>
-    <td align="center" width="50%" style="padding: 5px;">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cit-24-01-0476-maker&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF9D&text_color=c9d1d9" alt="Top Languages" width="100%" />
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=cit-24-01-0476-maker&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF9D&icon_color=2CA5E0&text_color=c9d1d9" alt="GitHub Stats" height="195" style="margin-right: 10px;" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cit-24-01-0476-maker&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF9D&text_color=c9d1d9" alt="Top Languages" height="195" />
+</div>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=cit-24-01-0476-maker&theme=radical&bg_color=0D1117&color=00FF9D&line=2CA5E0&point=FFFFFF&hide_border=true&height=250" width="100%" alt="GitHub Activity Graph" style="border-radius: 8px;" />
