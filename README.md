@@ -1,6 +1,6 @@
 <div align="center">
-  <!-- DYNAMIC THOUGHT LEADER BANNER -->
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="Cloud Security Banner" width="100%" style="border-radius: 12px; margin-bottom: 20px; box-shadow: 0 4px 30px rgba(0, 255, 157, 0.2);" />
+  <!-- VISUAL COVER BOARD / ANIMATED BANNER -->
+  <img src="https://i.pinimg.com/originals/93/2b/32/932b32252c8b030e2f5ffce3aeb3065a.gif" alt="Cloud Security Banner" width="100%" style="border-radius: 15px; border: 2px solid #00FF9D; box-shadow: 0 0 25px rgba(0, 255, 157, 0.3); margin-bottom: 25px;" />
 
   <!-- ELITE AVATAR -->
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Kavindu Oshadha Perera" width="150" height="150" style="border-radius: 50%; border: 3px solid #00FF9D; box-shadow: 0 0 20px rgba(0, 255, 157, 0.4); margin-bottom: 15px;" />
@@ -24,39 +24,42 @@
   <a href="https://t.me/oska_lex_vp"><img src="https://img.shields.io/badge/Telegram_Comm-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
 </div>
 
----
+<!-- ANIMATED LIGHT BAR -->
+<p align="center"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"></p>
 
 ### 🧠 Professional Summary
 
 As a highly driven **Cyber Security & Cloud Infrastructure Specialist** based in Sri Lanka, I architect robust, zero-trust cloud environments and engineer high-performance web applications. Bridging the critical gap between scalable DevOps deployments, stringent network security protocols (V2Ray, Proxy Architectures), and modern Full-Stack development, I build digital ecosystems that are both resilient and seamless. My mission is to transform complex infrastructural challenges into secure, automated solutions.
 
----
+<!-- ANIMATED LIGHT BAR -->
+<p align="center"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"></p>
 
 ### 🚀 Featured Engineering & Current Focus
 
-<table width="100%" align="center" style="border-collapse: collapse; border: none;">
+<table width="100%" align="center" style="border-collapse: collapse; border: none; background-color: #0D1117; border-radius: 10px;">
   <tr>
-    <td width="50%" valign="top" style="padding: 10px;">
+    <td width="50%" valign="top" style="padding: 15px;">
       <h4 style="margin-top: 0; color: #00FF9D;">🛡️ Project: Oska VPN Portal</h4>
-      <p>Architecting a comprehensive, zero-log VPN management dashboard for secure, unmetered internet access. Integrating highly customized proxy protocols to bypass strict regional firewalls.</p>
-      <b>Tech Stack:</b> <code>Next.js</code>, <code>Firebase</code>, <code>VPS</code>, <code>V2Ray/VLESS/Trojan</code>
+      <p style="color: #c9d1d9;">Architecting a comprehensive, zero-log VPN management dashboard for secure, unmetered internet access. Integrating highly customized proxy protocols to bypass strict regional firewalls.</p>
+      <b style="color: #8b949e;">Tech Stack:</b> <code>Next.js</code>, <code>Firebase</code>, <code>VPS</code>, <code>V2Ray/VLESS/Trojan</code>
     </td>
-    <td width="50%" valign="top" style="padding: 10px;">
+    <td width="50%" valign="top" style="padding: 15px;">
       <h4 style="margin-top: 0; color: #2CA5E0;">☁️ Enterprise Cloud Deployments</h4>
-      <p>Continuous scaling and optimization of high-availability cloud environments. Implementing automated DDoS mitigation, load balancing, and edge-computing solutions.</p>
-      <b>Tech Stack:</b> <code>AWS</code>, <code>DigitalOcean</code>, <code>Linux</code>, <code>Fastly CDN</code>
+      <p style="color: #c9d1d9;">Continuous scaling and optimization of high-availability cloud environments. Implementing automated DDoS mitigation, load balancing, and edge-computing solutions.</p>
+      <b style="color: #8b949e;">Tech Stack:</b> <code>AWS</code>, <code>DigitalOcean</code>, <code>Linux</code>, <code>Fastly CDN</code>
     </td>
   </tr>
 </table>
 
----
+<!-- ANIMATED LIGHT BAR -->
+<p align="center"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"></p>
 
 ### 💻 Technical Arsenal & Expertise
 
 **Cloud, Security & DevOps Architecture**
 <p align="left">
   <img src="https://skillicons.dev/icons?i=aws,cloudflare,linux,kali,ubuntu,windows,apple,docker,kubernetes,bash&theme=dark" />
-  <br>
+  <br><br>
   <img src="https://img.shields.io/badge/AWS_Solutions-232F3E?style=flat-square&logo=amazonaws&logoColor=white" />
   <img src="https://img.shields.io/badge/DigitalOcean_Droplets-0080FF?style=flat-square&logo=digitalocean&logoColor=white" />
   <img src="https://img.shields.io/badge/Linode_Instances-00A95C?style=flat-square&logo=linode&logoColor=white" />
@@ -67,14 +70,15 @@ As a highly driven **Cyber Security & Cloud Infrastructure Specialist** based in
 **Full-Stack Development & AI Integration**
 <p align="left">
   <img src="https://skillicons.dev/icons?i=nextjs,react,nodejs,firebase,ts,js,python,html,css,figma,github,vscode&theme=dark" />
-  <br>
+  <br><br>
   <img src="https://img.shields.io/badge/OpenAI_ChatGPT-74aa9c?style=flat-square&logo=openai&logoColor=white" />
   <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=google&logoColor=white" />
   <img src="https://img.shields.io/badge/Claude_AI-D97757?style=flat-square&logo=anthropic&logoColor=white" />
   <img src="https://img.shields.io/badge/WormGPT_Sec-000000?style=flat-square&logo=matrix&logoColor=00FF9D" />
 </p>
 
----
+<!-- ANIMATED LIGHT BAR -->
+<p align="center"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"></p>
 
 ### 📊 GitHub Telemetry & Global Impact
 
@@ -83,11 +87,29 @@ As a highly driven **Cyber Security & Cloud Infrastructure Specialist** based in
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cit-24-01-0476-maker&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF9D&text_color=c9d1d9" alt="Top Languages" height="195" />
 </div>
 
+<br>
+
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=cit-24-01-0476-maker&theme=radical&bg_color=0D1117&color=00FF9D&line=2CA5E0&point=FFFFFF&hide_border=true&height=250" width="100%" alt="GitHub Activity Graph" style="border-radius: 8px;" />
 </p>
 
----
+<br>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=cit-24-01-0476-maker&theme=radical&hide_border=true&background=0D1117&ring=00FF9D&fire=2CA5E0&currStreakNum=FFFFFF&sideNums=c9d1d9&sideLabels=2CA5E0" alt="GitHub Streak" width="80%" />
+</p>
+
+<!-- ANIMATED LIGHT BAR -->
+<p align="center"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"></p>
+
+### 🏆 Open Source Trophies & Achievements
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=cit-24-01-0476-maker&theme=radical&no-frame=true&no-bg=true&margin-w=15&title=white" alt="Trophies" width="100%" />
+</div>
+
+<!-- ANIMATED LIGHT BAR -->
+<p align="center"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"></p>
 
 ### 🎓 Education & Certifications
 
@@ -115,5 +137,5 @@ I am actively open to discussions regarding:
 <div align="center">
   <p style="color: #8b949e; font-size: 0.9em;">System Telemetry Pings (Profile Views)</p>
   <img src="https://komarev.com/ghpvc/?username=cit-24-01-0476-maker&label=VIEWS&color=00FF9D&style=flat-square" alt="Profile Views" />
-  <p style="color: #8b949e; font-size: 0.8em;"><i>Last Updated: Monday, May 4, 2026</i></p>
+  <p style="color: #8b949e; font-size: 0.8em;"><i>Last Updated: Tuesday, May 5, 2026</i></p>
 </div>
