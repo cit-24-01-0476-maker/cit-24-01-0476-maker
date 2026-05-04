@@ -1,6 +1,6 @@
 <!-- TOP ANIMATED VISUAL COVER -->
 <div align="center">
-  <img src="https://i.pinimg.com/originals/e4/26/70/e426702edf874b181aced1e2fa5c6c" alt="Live Cyber Cover" width="100%" style="border-radius: 15px; margin-bottom: 20px; border: 2px solid #00FF9D; box-shadow: 0 0 25px rgba(0, 255, 157, 0.4);" />
+  <img src="https://i.pinimg.com/originals/e4/26/70/e426702edf874b181aced1e2fa5c6cde.gif" alt="Live Cyber Cover" width="100%" style="border-radius: 15px; margin-bottom: 20px; border: 2px solid #00FF9D; box-shadow: 0 0 25px rgba(0, 255, 157, 0.4);" />
 
   <!-- ELITE AVATAR -->
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Kavindu Oshadha Perera" width="150" height="150" style="border-radius: 50%; border: 3px solid #00FF9D; box-shadow: 0 0 20px rgba(0, 255, 157, 0.4); margin-bottom: 15px;" />
