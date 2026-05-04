@@ -1,238 +1,896 @@
-<!-- 
-=======================================================================================================
-   ████████╗███████╗██████╗ ███╗   ███╗██╗███╗   ██╗ █████╗ ██╗     
-   ╚══██╔══╝██╔════╝██╔══██╗████╗ ████║██║████╗  ██║██╔══██╗██║     
-      ██║   █████╗  ██████╔╝██╔████╔██║██║██╔██╗ ██║███████║██║     
-      ██║   ██╔══╝  ██╔══██╗██║╚██╔╝██║██║██║╚██╗██║██╔══██║██║     
-      ██║   ███████╗██║  ██║██║ ╚═╝ ██║██║██║ ╚████║██║  ██║███████╗
-   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kavindu Oshadha Perera — Elite Profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@400;600;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-   SYSTEM IDENTIFICATION: KAVINDU OSHADHA PERERA (cit-24-01-0476-maker)
-   CLEARANCE LEVEL: ROOT / ADMIN
-   CORE DOMAIN: CYBER SECURITY ARCHITECTURE & CLOUD ENGINEERING
-   LAST COMPILED: ACTIVE RUNTIME
-======================================================================================================= 
--->
+    :root {
+      --green: #00ff9d;
+      --blue: #00b8ff;
+      --red: #ff4c6e;
+      --amber: #ffcc44;
+      --purple: #b088ff;
+      --bg: #050a0e;
+      --bg2: #060d0a;
+      --text: #c8d6df;
+      --muted: #7a9aaa;
+      --dim: #3a6b57;
+    }
 
-<!-- ==========================================
-     [ MODULE 1 ] : TERMINAL BOOT SEQUENCE 
-     ========================================== -->
-<div align="center" style="background-color: #0D1117; padding: 20px; border-radius: 12px; border: 1px solid #00FF9D; margin-bottom: 25px; box-shadow: 0px 0px 15px rgba(0, 255, 157, 0.2);">
-<pre><code style="color: #00FF9D; font-family: 'Fira Code', 'Courier New', monospace; font-size: 14px; text-align: left; display: inline-block;">
-root@kavindu-oshadha:~# ./initialize_core_profile.sh
-[ OK ] Mounting Virtual Drives...
-[ OK ] Establishing Secure Connection to Cloudflare Edge...
-[ OK ] Loading DevOps Arsenal [Docker, Kubernetes, AWS]...
-[ OK ] Bypassing Mainframe Firewall... Access Granted.
-> 
-> Welcome, System Admin Kavindu Oshadha Perera.
-> Status: ONLINE & ENCRYPTED.
-</code></pre>
-</div>
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Share Tech Mono', monospace;
+      min-height: 100vh;
+      position: relative;
+      overflow-x: hidden;
+    }
 
-<!-- ==========================================
-     [ MODULE 2 ] : IDENTITY & BANNER
-     ========================================== -->
-<div align="center">
-  <!-- DYNAMIC CYBERPUNK BANNER -->
-  <img src="https://i.pinimg.com/originals/93/2b/32/932b32252c8b030e2f5ffce3aeb3065a.gif" alt="Cyber Banner" width="100%" style="border-radius: 15px; margin-bottom: 20px; border: 2px solid #2CA5E0; box-shadow: 0px 0px 20px rgba(44, 165, 224, 0.4);" />
+    /* ── BACKGROUND LAYERS ── */
+    .scanline {
+      position: fixed;
+      inset: 0;
+      background: repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 2px,
+        rgba(0,255,180,0.012) 2px,
+        rgba(0,255,180,0.012) 4px
+      );
+      pointer-events: none;
+      z-index: 999;
+    }
 
-  <!-- ELITE HACKER AVATAR -->
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Hacker Avatar" width="170" height="170" style="border-radius: 50%; border: 3px solid #00FF9D; box-shadow: 0px 0px 25px #00FF9D;" />
-  
-  <br><br>
+    .grid-bg {
+      position: fixed;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(0,255,157,0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0,255,157,0.03) 1px, transparent 1px);
+      background-size: 40px 40px;
+      pointer-events: none;
+      z-index: 0;
+    }
 
-  <h1 align="center">
-    <kbd style="background-color: #161b22; color: #00FF9D; padding: 5px 15px; border-radius: 8px; border: 1px solid #00FF9D;">Hi, I'm Kavindu Oshadha Perera</kbd> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="40">
-  </h1>
+    /* ── LAYOUT ── */
+    .content {
+      position: relative;
+      z-index: 1;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 32px 24px 48px;
+      animation: fadeUp 0.6s ease-out both;
+    }
 
-  <!-- TYPING SVG WITH TECH FONT -->
-  <a href="https://oshadha.live">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=00FF9D&center=true&vCenter=true&width=1000&lines=System.out.println(%22Cyber+Security+Undergraduate%22);sudo+apt-get+install+Cloud-Architect;npm+run+build+Full-Stack-Developer;docker+run+-d+DevOps-Engineer;while(true)+{+innovate();+}" alt="Typing Tech SVG" />
-  </a>
-</div>
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(16px); }
+      to   { opacity: 1; transform: none; }
+    }
 
-<br>
+    /* ── BOOT BLOCK ── */
+    .boot-block {
+      border: 1px solid rgba(0,255,157,0.2);
+      background: var(--bg2);
+      border-radius: 4px;
+      padding: 22px 28px;
+      margin-bottom: 32px;
+      position: relative;
+    }
 
-<!-- ==========================================
-     [ MODULE 3 ] : SECURE COMMUNICATION LINES
-     ========================================== -->
-<div align="center">
-  <a href="https://oshadha.live"><img src="https://img.shields.io/badge/OFFICIAL_PORTFOLIO-0D1117?style=for-the-badge&logo=vercel&logoColor=00FF9D&border=00FF9D" alt="Portfolio"/></a>
-  <a href="https://www.linkedin.com/in/kavindu-oshadha-perera"><img src="https://img.shields.io/badge/LINKEDIN_PROFILE-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:oshadhaperera500@gmail.com"><img src="https://img.shields.io/badge/SECURE_EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://t.me/oska_lex_vp"><img src="https://img.shields.io/badge/TELEGRAM_ENCRYPTED-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
-  <a href="https://wa.me/94754565755"><img src="https://img.shields.io/badge/WHATSAPP_DIRECT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/></a>
-</div>
+    .boot-block::before {
+      content: 'BOOT_SEQUENCE.SH';
+      position: absolute;
+      top: -10px; left: 16px;
+      background: var(--bg);
+      color: var(--green);
+      font-size: 11px;
+      padding: 0 8px;
+      letter-spacing: 2px;
+    }
 
-<!-- NEON DIVIDER -->
-<p align="center"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"></p>
+    .boot-line {
+      font-size: 13px;
+      line-height: 1.9;
+    }
 
-<!-- ==========================================
-     [ MODULE 4 ] : EXECUTIVE SUMMARY
-     ========================================== -->
-<table width="100%" style="border: 1px solid #2CA5E0; background-color: #0d1117; border-radius: 10px;">
-  <tr>
-    <td width="70%" style="padding: 25px;">
-      <h2><kbd style="color: #2CA5E0; background: none;">&#128187; // EXECUTIVE_SUMMARY.md</kbd></h2>
-      <p style="font-family: 'Fira Code', monospace; font-size: 15px; color: #c9d1d9; line-height: 1.6;">
-        Operating out of <b>Watareka, Sri Lanka</b>, I am a 3rd-year <b>BSc (Hons) Cyber Security Undergraduate</b> at SLTC Research University. 
-        <br><br>
-        My architecture philosophy revolves around <b>Zero-Trust Networks</b>, high-availability cloud deployments, and building seamless Full-Stack web applications utilizing the power of Next.js and Firebase. I specialize in bridging the gap between hardcore backend security and immaculate frontend design.
-        <br><br>
-        <span style="color: #00FF9D; font-weight: bold;">> "I don't just write code; I engineer secure digital ecosystems."</span>
-      </p>
-    </td>
-    <td width="30%" align="center" style="padding: 20px;">
-      <img src="https://media1.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif?cid=790b7611dfd693f12ab8e8cdde84594c7717462ec5fc12d1&rid=giphy.gif&ct=g" width="180" style="border-radius: 12px; box-shadow: 0px 0px 15px #2CA5E0;" />
-    </td>
-  </tr>
-</table>
+    .boot-line .ok     { color: #0aff7a; }
+    .boot-line .dim    { color: var(--dim); }
+    .boot-line .prompt { color: var(--blue); }
+    .boot-line .danger { color: var(--red); }
 
-<!-- NEON DIVIDER -->
-<p align="center"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"></p>
+    .cursor {
+      display: inline-block;
+      width: 8px; height: 14px;
+      background: var(--green);
+      vertical-align: middle;
+      animation: blink 1s step-end infinite;
+    }
 
-<!-- ==========================================
-     [ MODULE 5 ] : ADVANCED TECH ARSENAL (100% FIXED)
-     ========================================== -->
-<h2 align="center"><kbd style="color: #00FF9D; background: none;">&#9881; // TECH_ARSENAL & INFRASTRUCTURE</kbd></h2>
+    @keyframes blink { 50% { opacity: 0; } }
 
-<div align="center">
-  <!-- DYNAMIC ICONS (Guaranteed to work - Checked & Verified) -->
-  <!-- Replaced broken icons with Docker, Kubernetes, and GitHub to maintain 22 Perfect Icons -->
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=aws,cloudflare,linux,kali,ubuntu,windows,apple,docker,kubernetes,bash,nextjs,react,nodejs,firebase,ts,js,html,css,python,figma,github,vscode&perline=11&theme=dark" />
-  </a>
-</div>
+    /* ── HERO ── */
+    .hero {
+      display: flex;
+      align-items: flex-start;
+      gap: 32px;
+      margin-bottom: 32px;
+      flex-wrap: wrap;
+    }
 
-<br>
+    .avatar-wrap { flex-shrink: 0; }
 
-<!-- PREMIUM SHIELDS ROW 1: Cloud & Infrastructure -->
-<div align="center">
-  <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
-  <img src="https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linode_Cloud-00A95C?style=for-the-badge&logo=linode&logoColor=white" />
-  <img src="https://img.shields.io/badge/Fastly_CDN-000000?style=for-the-badge&logo=fastly&logoColor=white" />
-</div>
+    .avatar {
+      width: 116px; height: 116px;
+      border-radius: 50%;
+      background: rgba(0,255,157,0.04);
+      border: 2px solid var(--green);
+      display: flex; align-items: center; justify-content: center;
+      font-family: 'Orbitron', monospace;
+      font-size: 30px;
+      font-weight: 900;
+      color: var(--green);
+      position: relative;
+      animation: pulse-avatar 3s ease-in-out infinite;
+    }
 
-<br>
+    @keyframes pulse-avatar {
+      0%, 100% { box-shadow: 0 0 0 4px rgba(0,255,157,0.08), 0 0 0 10px rgba(0,255,157,0.04); }
+      50%       { box-shadow: 0 0 0 8px rgba(0,255,157,0.14), 0 0 0 18px rgba(0,255,157,0.06); }
+    }
 
-<!-- PREMIUM SHIELDS ROW 2: Networking & Design -->
-<div align="center">
-  <img src="https://img.shields.io/badge/Termius_SSH-2A354E?style=for-the-badge&logo=termius&logoColor=white" />
-  <img src="https://img.shields.io/badge/V2Ray_Proxies-FF0000?style=for-the-badge&logo=wireguard&logoColor=white" />
-  <img src="https://img.shields.io/badge/Canva_Pro-00C4CC?style=for-the-badge&logo=canva&logoColor=white" />
-  <img src="https://img.shields.io/badge/Android_Dev-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
-</div>
+    .avatar-dot {
+      position: absolute;
+      bottom: 8px; right: 8px;
+      width: 13px; height: 13px;
+      background: #0aff7a;
+      border-radius: 50%;
+      border: 2px solid var(--bg);
+      animation: pulse-dot 2s ease-in-out infinite;
+    }
 
-<br>
+    @keyframes pulse-dot { 0%,100%{opacity:1} 50%{opacity:0.35} }
 
-<!-- PREMIUM SHIELDS ROW 3: AI & Machine Learning -->
-<div align="center">
-  <img src="https://img.shields.io/badge/OpenAI_ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/Claude_AI-D97757?style=for-the-badge&logo=anthropic&logoColor=white" />
-  <img src="https://img.shields.io/badge/WormGPT_Sec-000000?style=for-the-badge&logo=matrix&logoColor=00FF9D" />
-</div>
+    .hero-info { flex: 1; min-width: 220px; }
 
-<!-- NEON DIVIDER -->
-<p align="center"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"></p>
+    .name {
+      font-family: 'Orbitron', monospace;
+      font-size: 22px;
+      font-weight: 900;
+      color: #fff;
+      letter-spacing: 1px;
+      margin-bottom: 4px;
+      text-shadow: 0 0 40px rgba(0,255,157,0.25);
+    }
 
-<!-- ==========================================
-     [ MODULE 6 ] : GITHUB TELEMETRY & LIVE GRAPHS
-     ========================================== -->
-<h2 align="center"><kbd style="color: #2CA5E0; background: none;">&#128200; // TELEMETRY & GITHUB_STATS</kbd></h2>
+    .handle {
+      color: var(--green);
+      font-size: 12px;
+      letter-spacing: 3px;
+      margin-bottom: 14px;
+    }
 
-<!-- LIVE ACTIVITY GRAPH -->
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=cit-24-01-0476-maker&theme=radical&bg_color=0D1117&color=00FF9D&line=2CA5E0&point=FFFFFF&hide_border=true&custom_title=System_Activity_Log" width="100%" alt="GitHub Activity Graph" style="border: 1px solid #2CA5E0; border-radius: 10px;" />
-</p>
+    .tag-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
 
-<br>
+    .tag {
+      font-size: 10px;
+      padding: 3px 11px;
+      border-radius: 2px;
+      letter-spacing: 1.5px;
+    }
 
-<!-- STATS CARDS USING HTML TABLE TO PREVENT BREAKING -->
-<table align="center" width="100%" style="border: none;">
-  <tr>
-    <td align="center" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=cit-24-01-0476-maker&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF9D&icon_color=2CA5E0&text_color=c9d1d9" alt="GitHub Stats" width="100%" />
-    </td>
-    <td align="center" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cit-24-01-0476-maker&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF9D&text_color=c9d1d9" alt="Top Languages" width="100%" />
-    </td>
-  </tr>
-</table>
+    .tag-green  { background: rgba(0,255,157,0.07); color: var(--green);  border: 1px solid rgba(0,255,157,0.25); }
+    .tag-blue   { background: rgba(0,184,255,0.07); color: var(--blue);   border: 1px solid rgba(0,184,255,0.25); }
+    .tag-amber  { background: rgba(255,204,68,0.07); color: var(--amber); border: 1px solid rgba(255,204,68,0.25); }
+    .tag-red    { background: rgba(255,76,110,0.07); color: var(--red);   border: 1px solid rgba(255,76,110,0.25); }
 
-<br>
+    .bio {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.75;
+      border-left: 2px solid rgba(0,255,157,0.2);
+      padding-left: 14px;
+    }
 
-<!-- STREAK CARD -->
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=cit-24-01-0476-maker&theme=radical&hide_border=true&background=0D1117&ring=00FF9D&fire=2CA5E0&currStreakNum=FFFFFF&sideNums=c9d1d9&sideLabels=2CA5E0" alt="GitHub Streak" width="80%" />
-</p>
+    .bio .hl { color: var(--green); }
 
-<!-- TROPHIES CARD -->
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=cit-24-01-0476-maker&theme=radical&no-frame=true&no-bg=true&margin-w=15&title=white" alt="Trophies" width="100%" />
-</p>
+    /* ── DIVIDER ── */
+    .divider {
+      border: none;
+      border-top: 1px solid rgba(0,255,157,0.1);
+      margin: 28px 0;
+      position: relative;
+    }
 
-<!-- NEON DIVIDER -->
-<p align="center"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"></p>
+    .divider::after {
+      content: '//';
+      position: absolute;
+      top: -10px; left: 50%; transform: translateX(-50%);
+      background: var(--bg);
+      color: rgba(0,255,157,0.2);
+      padding: 0 14px;
+      font-size: 12px;
+      letter-spacing: 4px;
+    }
 
-<!-- ==========================================
-     [ MODULE 7 ] : CURRENT DIRECTIVES & PROJECTS
-     ========================================== -->
-<h2><kbd style="color: #00FF9D; background: none;">&#128194; // CURRENT_DIRECTIVES & OPERATIONS</kbd></h2>
+    /* ── SECTION LABEL ── */
+    .section-label {
+      font-family: 'Orbitron', monospace;
+      font-size: 10px;
+      color: var(--blue);
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
 
-<details open>
-  <summary><b style="font-size: 18px; color: #00FF9D; cursor: pointer; font-family: 'Fira Code', monospace;">> [ ACTIVE ] Oska VPN Portal Infrastructure 🛡️</b></summary>
-  <blockquote style="border-left: 4px solid #2CA5E0; background-color: #161b22; padding: 15px; border-radius: 0px 8px 8px 0px;">
-    <code style="color: #c9d1d9;">STATUS: IN_DEVELOPMENT | STACK: Next.js, Firebase, DigitalOcean VPS</code><br><br>
-    <p style="color: #8b949e;">Architecting a highly secure, zero-log VPN management dashboard. Implemented frontend interfaces connected to robust backend services. Custom proxy protocol configurations including <b>V2Ray, VLESS, and Trojan</b> over XTLS to bypass strict firewall restrictions.</p>
-  </blockquote>
-</details>
+    .section-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: linear-gradient(to right, rgba(0,184,255,0.2), transparent);
+    }
 
-<br>
+    /* ── STATS GRID ── */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-bottom: 32px;
+    }
 
-<details>
-  <summary><b style="font-size: 18px; color: #2CA5E0; cursor: pointer; font-family: 'Fira Code', monospace;">> [ ONGOING ] Enterprise Cloud Deployments ☁️</b></summary>
-  <blockquote style="border-left: 4px solid #00FF9D; background-color: #161b22; padding: 15px; border-radius: 0px 8px 8px 0px;">
-    <code style="color: #c9d1d9;">STATUS: ACTIVE | STACK: AWS, Linux, Fastly CDN</code><br><br>
-    <p style="color: #8b949e;">Continuous configuration of robust cloud environments. Utilizing SSH via Termius to manage and scale Linux instances. Implementing aggressive DDoS protection and optimizing content delivery utilizing Cloudflare and Fastly integrations.</p>
-  </blockquote>
-</details>
+    @media (max-width: 560px) {
+      .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    }
 
-<br>
+    .stat-card {
+      background: var(--bg2);
+      border: 1px solid rgba(0,255,157,0.1);
+      border-radius: 4px;
+      padding: 18px 14px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      transition: border-color 0.2s;
+    }
 
-<details>
-  <summary><b style="font-size: 18px; color: #FF7139; cursor: pointer; font-family: 'Fira Code', monospace;">> [ ACADEMIC ] Cyber Security Research 🎓</b></summary>
-  <blockquote style="border-left: 4px solid #FF7139; background-color: #161b22; padding: 15px; border-radius: 0px 8px 8px 0px;">
-    <code style="color: #c9d1d9;">STATUS: SENIOR_YEAR | ORG: SLTC Research University</code><br><br>
-    <p style="color: #8b949e;">Deep-dive studies into network penetration testing using <b>Kali Linux</b>. Regular engagement in TryHackMe rooms, Nmap scanning, and understanding complex security vulnerabilities. Also expanding into UI/UX design via Figma to ensure secure tools are also user-friendly.</p>
-  </blockquote>
-</details>
+    .stat-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 1px;
+      background: linear-gradient(to right, transparent, rgba(0,255,157,0.35), transparent);
+    }
 
-<!-- NEON DIVIDER -->
-<p align="center"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"></p>
+    .stat-card:hover { border-color: rgba(0,255,157,0.3); }
 
-<!-- ==========================================
-     [ MODULE 8 ] : FOOTER & VIEW COUNTER
-     ========================================== -->
-<div align="center">
-  <p><kbd style="background: none; color: #8b949e; border-color: #8b949e;">END OF FILE // THANK YOU FOR VISITING THE MAINFRAME</kbd></p>
-  
-  <img src="https://komarev.com/ghpvc/?username=cit-24-01-0476-maker&label=SYSTEM_PINGS&color=00FF9D&style=for-the-badge" alt="Profile Views" style="box-shadow: 0px 0px 10px #00FF9D; border-radius: 5px;" />
-  
-  <br><br>
-  <!-- QUOTE API IN TECH STYLE -->
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1000&color=2CA5E0&center=true&vCenter=true&width=800&lines=%22Security+is+not+a+product%2C+but+a+process.%22+-+Bruce+Schneier;%22Talk+is+cheap.+Show+me+the+code.%22+-+Linus+Torvalds;%22There+is+no+cloud%2C+it's+just+someone+else's+computer.%22" alt="Quotes SVG" />
-</div>
+    .stat-val {
+      font-family: 'Orbitron', monospace;
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--green);
+      display: block;
+    }
 
-<!-- BOTTOM DECORATIVE WAVE -->
-<img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" width="100%" alt="Footer Wave">
+    .stat-val.red  { color: var(--red); }
+    .stat-val.blue { color: var(--blue); }
 
-<!-- 
-   =======================================================================================================
-   END OF ULTIMATE PROFILE SYSTEM.
-   ALL MODULES LOADED SUCCESSFULLY.
-   CODE CONSTRUCTED FOR MAXIMUM RELIABILITY & AESTHETIC IMPACT.
-   =======================================================================================================
--->
+    .stat-lbl {
+      font-size: 10px;
+      color: var(--dim);
+      letter-spacing: 1.5px;
+      margin-top: 6px;
+      display: block;
+    }
+
+    /* ── ARSENAL ── */
+    .arsenal-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      margin-bottom: 32px;
+    }
+
+    @media (max-width: 640px) {
+      .arsenal-grid { grid-template-columns: 1fr; }
+    }
+
+    .arsenal-card {
+      background: var(--bg2);
+      border: 1px solid rgba(0,184,255,0.1);
+      border-radius: 4px;
+      padding: 18px 16px;
+      position: relative;
+    }
+
+    .arsenal-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 1px;
+      background: linear-gradient(to right, transparent, rgba(0,184,255,0.25), transparent);
+    }
+
+    .arsenal-title {
+      font-family: 'Orbitron', monospace;
+      font-size: 9px;
+      color: var(--blue);
+      letter-spacing: 2px;
+      margin-bottom: 16px;
+    }
+
+    .skill-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+
+    .skill-dot {
+      width: 5px; height: 5px;
+      border-radius: 50%;
+      background: var(--green);
+      flex-shrink: 0;
+    }
+
+    .skill-dot.blue  { background: var(--blue); }
+    .skill-dot.red   { background: var(--red); }
+    .skill-dot.amber { background: var(--amber); }
+
+    .skill-name { font-size: 12px; color: var(--muted); flex: 1; }
+
+    .bar-track {
+      width: 72px; height: 3px;
+      background: #0d1f18;
+      border-radius: 2px;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+
+    .bar-fill {
+      height: 100%;
+      border-radius: 2px;
+      background: linear-gradient(to right, var(--green), var(--blue));
+      width: 0;
+      transition: width 1.4s cubic-bezier(0.4,0,0.2,1);
+    }
+
+    .bar-fill.red { background: linear-gradient(to right, var(--red), #ff9944); }
+
+    /* ── OPERATIONS ── */
+    .ops-list { margin-bottom: 32px; }
+
+    .op-item {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      background: var(--bg2);
+      border: 1px solid rgba(255,76,110,0.1);
+      border-left: 3px solid var(--red);
+      border-radius: 0 4px 4px 0;
+      padding: 16px 18px;
+      margin-bottom: 12px;
+      transition: border-color 0.2s;
+    }
+
+    .op-item:hover { border-color: rgba(255,76,110,0.25); }
+
+    .op-item.blue  { border-left-color: var(--blue);  border-color: rgba(0,184,255,0.1); }
+    .op-item.blue:hover  { border-color: rgba(0,184,255,0.25); }
+    .op-item.green { border-left-color: var(--green); border-color: rgba(0,255,157,0.1); }
+    .op-item.green:hover { border-color: rgba(0,255,157,0.25); }
+
+    .op-badge {
+      font-size: 10px;
+      padding: 3px 10px;
+      border-radius: 2px;
+      letter-spacing: 1px;
+      flex-shrink: 0;
+      white-space: nowrap;
+    }
+
+    .op-badge.active   { background: rgba(255,76,110,0.1);  color: var(--red);   border: 1px solid rgba(255,76,110,0.3); }
+    .op-badge.ongoing  { background: rgba(0,184,255,0.1);   color: var(--blue);  border: 1px solid rgba(0,184,255,0.3); }
+    .op-badge.research { background: rgba(0,255,157,0.1);   color: var(--green); border: 1px solid rgba(0,255,157,0.3); }
+
+    .op-text { flex: 1; }
+
+    .op-name {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: 0.5px;
+    }
+
+    .op-desc {
+      font-size: 11px;
+      color: var(--dim);
+      margin-top: 3px;
+      line-height: 1.6;
+    }
+
+    /* ── GITHUB STATS ── */
+    .gh-stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-bottom: 32px;
+    }
+
+    @media (max-width: 560px) { .gh-stats { grid-template-columns: 1fr; } }
+
+    .gh-card {
+      background: var(--bg2);
+      border: 1px solid rgba(0,184,255,0.1);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .gh-card img { width: 100%; display: block; }
+
+    .gh-streak {
+      grid-column: 1 / -1;
+      background: var(--bg2);
+      border: 1px solid rgba(0,255,157,0.1);
+      border-radius: 4px;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .gh-streak img { width: 90%; max-width: 600px; }
+
+    /* ── CONNECT ── */
+    .connect-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 32px;
+    }
+
+    .connect-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 9px 18px;
+      border-radius: 3px;
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 1.5px;
+      text-decoration: none;
+      border: 1px solid;
+      cursor: pointer;
+      transition: background 0.15s, border-color 0.15s;
+    }
+
+    .cb-green  { color: var(--green);  border-color: rgba(0,255,157,0.25);  background: rgba(0,255,157,0.04); }
+    .cb-green:hover  { background: rgba(0,255,157,0.12); border-color: rgba(0,255,157,0.5); }
+    .cb-blue   { color: var(--blue);   border-color: rgba(0,184,255,0.25);  background: rgba(0,184,255,0.04); }
+    .cb-blue:hover   { background: rgba(0,184,255,0.12); }
+    .cb-red    { color: var(--red);    border-color: rgba(255,76,110,0.25); background: rgba(255,76,110,0.04); }
+    .cb-red:hover    { background: rgba(255,76,110,0.12); }
+    .cb-amber  { color: var(--amber);  border-color: rgba(255,204,68,0.25); background: rgba(255,204,68,0.04); }
+    .cb-amber:hover  { background: rgba(255,204,68,0.12); }
+    .cb-purple { color: var(--purple); border-color: rgba(176,136,255,0.25); background: rgba(176,136,255,0.04); }
+    .cb-purple:hover { background: rgba(176,136,255,0.12); }
+
+    /* ── QUOTE ── */
+    .quote-block {
+      background: var(--bg2);
+      border: 1px solid rgba(0,255,157,0.12);
+      border-radius: 4px;
+      padding: 22px 24px 20px;
+      margin-bottom: 32px;
+      position: relative;
+    }
+
+    .quote-mark {
+      position: absolute;
+      top: -16px; left: 18px;
+      background: var(--bg);
+      color: rgba(0,255,157,0.3);
+      font-size: 44px;
+      line-height: 1;
+      font-family: Georgia, serif;
+      padding: 0 8px;
+    }
+
+    .quote-text {
+      font-size: 14px;
+      color: #5a8a7a;
+      line-height: 1.75;
+      font-style: italic;
+    }
+
+    .quote-attr {
+      font-size: 10px;
+      color: rgba(0,255,157,0.3);
+      margin-top: 12px;
+      letter-spacing: 2px;
+    }
+
+    /* ── FOOTER ── */
+    .footer {
+      text-align: center;
+    }
+
+    .ping-badge {
+      display: inline-block;
+      background: rgba(0,255,157,0.07);
+      color: var(--green);
+      border: 1px solid rgba(0,255,157,0.18);
+      border-radius: 3px;
+      padding: 5px 16px;
+      font-size: 11px;
+      letter-spacing: 2px;
+      margin-bottom: 18px;
+    }
+
+    .footer-text {
+      font-size: 11px;
+      color: rgba(0,255,157,0.15);
+      letter-spacing: 3px;
+    }
+
+    /* ── ACTIVITY GRAPH ── */
+    .activity-wrap {
+      margin-bottom: 32px;
+      border: 1px solid rgba(0,184,255,0.12);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .activity-wrap img { width: 100%; display: block; }
+
+    /* ── TROPHY ROW ── */
+    .trophy-wrap {
+      margin-bottom: 32px;
+      text-align: center;
+      border: 1px solid rgba(0,255,157,0.08);
+      border-radius: 4px;
+      overflow: hidden;
+      background: var(--bg2);
+      padding: 12px;
+    }
+
+    .trophy-wrap img { max-width: 100%; }
+  </style>
+</head>
+<body>
+
+  <div class="scanline"></div>
+  <div class="grid-bg"></div>
+
+  <div class="content">
+
+    <!-- ── BOOT SEQUENCE ── -->
+    <div class="boot-block">
+      <div class="boot-line"><span class="ok">[  OK  ]</span> <span class="dim">Mounting virtual drives...</span></div>
+      <div class="boot-line"><span class="ok">[  OK  ]</span> <span class="dim">Establishing secure tunnel → Cloudflare Edge...</span></div>
+      <div class="boot-line"><span class="ok">[  OK  ]</span> <span class="dim">Loading DevOps arsenal [Docker · Kubernetes · AWS]...</span></div>
+      <div class="boot-line"><span class="ok">[  OK  ]</span> <span class="dim">Bypassing firewall restrictions... </span><span class="danger">ACCESS GRANTED.</span></div>
+      <div class="boot-line" style="margin-top:10px;">
+        <span class="prompt">root@kavindu-oshadha:~# </span>./load_profile.sh<span class="cursor"></span>
+      </div>
+    </div>
+
+    <!-- ── HERO ── -->
+    <div class="hero">
+      <div class="avatar-wrap">
+        <div class="avatar">
+          KO
+          <div class="avatar-dot"></div>
+        </div>
+      </div>
+      <div class="hero-info">
+        <div class="name">KAVINDU OSHADHA PERERA</div>
+        <div class="handle">// cit-24-01-0476-maker &nbsp;·&nbsp; Watareka, Sri Lanka</div>
+        <div class="tag-row">
+          <span class="tag tag-green">CYBER SECURITY</span>
+          <span class="tag tag-blue">CLOUD ARCHITECT</span>
+          <span class="tag tag-amber">FULL STACK DEV</span>
+          <span class="tag tag-red">DEVOPS ENGINEER</span>
+        </div>
+        <div class="bio">
+          3rd-year <span class="hl">BSc (Hons) Cyber Security Undergraduate</span> at SLTC Research University.
+          Zero-trust advocate · High-availability cloud deployments · Secure full-stack apps with Next.js &amp; Firebase.
+          Bridging the gap between hardcore backend security and immaculate frontend design.
+          <br><br>
+          <span class="hl">"I don't just write code — I engineer secure digital ecosystems."</span>
+        </div>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- ── STATS ── -->
+    <div class="section-label">SYSTEM TELEMETRY</div>
+    <div class="stats-grid">
+      <div class="stat-card">
+        <span class="stat-val" id="c-commits">0</span>
+        <span class="stat-lbl">COMMITS</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-val blue" id="c-repos">0</span>
+        <span class="stat-lbl">REPOSITORIES</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-val" id="c-stars">0</span>
+        <span class="stat-lbl">STARS EARNED</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-val red">ROOT</span>
+        <span class="stat-lbl">CLEARANCE LEVEL</span>
+      </div>
+    </div>
+
+    <!-- ── GITHUB LIVE STATS ── -->
+    <div class="section-label">GITHUB TELEMETRY &amp; LIVE GRAPHS</div>
+
+    <div class="activity-wrap">
+      <img
+        src="https://github-readme-activity-graph.vercel.app/graph?username=cit-24-01-0476-maker&theme=radical&bg_color=060d0a&color=00FF9D&line=00b8ff&point=FFFFFF&hide_border=true&custom_title=System_Activity_Log"
+        alt="GitHub Activity Graph"
+      />
+    </div>
+
+    <div class="gh-stats">
+      <div class="gh-card">
+        <img
+          src="https://github-readme-stats.vercel.app/api?username=cit-24-01-0476-maker&show_icons=true&theme=radical&hide_border=true&bg_color=060d0a&title_color=00FF9D&icon_color=00b8ff&text_color=c9d1d9"
+          alt="GitHub Stats"
+        />
+      </div>
+      <div class="gh-card">
+        <img
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=cit-24-01-0476-maker&layout=compact&theme=radical&hide_border=true&bg_color=060d0a&title_color=00FF9D&text_color=c9d1d9"
+          alt="Top Languages"
+        />
+      </div>
+      <div class="gh-streak">
+        <img
+          src="https://github-readme-streak-stats.herokuapp.com/?user=cit-24-01-0476-maker&theme=radical&hide_border=true&background=060d0a&ring=00FF9D&fire=00b8ff&currStreakNum=FFFFFF&sideNums=c9d1d9&sideLabels=00b8ff"
+          alt="GitHub Streak"
+        />
+      </div>
+    </div>
+
+    <div class="trophy-wrap">
+      <img
+        src="https://github-profile-trophy.vercel.app/?username=cit-24-01-0476-maker&theme=radical&no-frame=true&no-bg=true&margin-w=15"
+        alt="GitHub Trophies"
+      />
+    </div>
+
+    <!-- ── TECH ARSENAL ── -->
+    <div class="section-label">TECH ARSENAL &amp; INFRASTRUCTURE</div>
+
+    <!-- Skill Icons -->
+    <div style="text-align:center; margin-bottom:22px;">
+      <img
+        src="https://skillicons.dev/icons?i=aws,cloudflare,linux,kali,ubuntu,windows,apple,docker,kubernetes,bash,nextjs,react,nodejs,firebase,ts,js,html,css,python,figma,github,vscode&perline=11&theme=dark"
+        alt="Tech Stack Icons"
+        style="max-width:100%;"
+      />
+    </div>
+
+    <div class="arsenal-grid">
+      <!-- Cloud & Infra -->
+      <div class="arsenal-card">
+        <div class="arsenal-title">// CLOUD &amp; INFRASTRUCTURE</div>
+        <div class="skill-item">
+          <div class="skill-dot blue"></div>
+          <span class="skill-name">Amazon AWS</span>
+          <div class="bar-track"><div class="bar-fill" data-w="85"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-dot blue"></div>
+          <span class="skill-name">Docker / Kubernetes</span>
+          <div class="bar-track"><div class="bar-fill" data-w="78"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-dot blue"></div>
+          <span class="skill-name">Cloudflare</span>
+          <div class="bar-track"><div class="bar-fill" data-w="92"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-dot blue"></div>
+          <span class="skill-name">Linux / Ubuntu</span>
+          <div class="bar-track"><div class="bar-fill" data-w="94"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-dot blue"></div>
+          <span class="skill-name">DigitalOcean VPS</span>
+          <div class="bar-track"><div class="bar-fill" data-w="88"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-dot blue"></div>
+          <span class="skill-name">Fastly CDN</span>
+          <div class="bar-track"><div class="bar-fill" data-w="80"></div></div>
+        </div>
+      </div>
+
+      <!-- Development -->
+      <div class="arsenal-card">
+        <div class="arsenal-title">// DEVELOPMENT STACK</div>
+        <div class="skill-item">
+          <div class="skill-dot"></div>
+          <span class="skill-name">Next.js</span>
+          <div class="bar-track"><div class="bar-fill" data-w="90"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-dot"></div>
+          <span class="skill-name">TypeScript</span>
+          <div class="bar-track"><div class="bar-fill" data-w="84"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-dot"></div>
+          <span class="skill-name">Firebase</span>
+          <div class="bar-track"><div class="bar-fill" data-w="87"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-dot"></div>
+          <span class="skill-name">Node.js</span>
+          <div class="bar-track"><div class="bar-fill" data-w="82"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-dot"></div>
+          <span class="skill-name">React</span>
+          <div class="bar-track"><div class="bar-fill" data-w="86"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-dot"></div>
+          <span class="skill-name">Figma / UI Design</span>
+          <div class="bar-track"><div class="bar-fill" data-w="75"></div></div>
+        </div>
+      </div>
+
+      <!-- Security -->
+      <div class="arsenal-card">
+        <div class="arsenal-title">// SECURITY OPERATIONS</div>
+        <div class="skill-item">
+          <div class="skill-dot red"></div>
+          <span class="skill-name">Kali Linux</span>
+          <div class="bar-track"><div class="bar-fill red" data-w="89"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-dot red"></div>
+          <span class="skill-name">V2Ray / VLESS / Trojan</span>
+          <div class="bar-track"><div class="bar-fill red" data-w="86"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-dot red"></div>
+          <span class="skill-name">Penetration Testing</span>
+          <div class="bar-track"><div class="bar-fill red" data-w="80"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-dot red"></div>
+          <span class="skill-name">Nmap / Recon</span>
+          <div class="bar-track"><div class="bar-fill red" data-w="83"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-dot red"></div>
+          <span class="skill-name">Zero-Trust Networks</span>
+          <div class="bar-track"><div class="bar-fill red" data-w="85"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-dot red"></div>
+          <span class="skill-name">DDoS Hardening</span>
+          <div class="bar-track"><div class="bar-fill red" data-w="82"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── ACTIVE OPERATIONS ── -->
+    <div class="section-label">CURRENT DIRECTIVES &amp; OPERATIONS</div>
+    <div class="ops-list">
+      <div class="op-item">
+        <div class="op-badge active">ACTIVE</div>
+        <div class="op-text">
+          <div class="op-name">OSKA VPN PORTAL INFRASTRUCTURE</div>
+          <div class="op-desc">
+            Stack: Next.js · Firebase · DigitalOcean VPS — Architecting a zero-log VPN management dashboard.
+            Custom proxy configs including V2Ray, VLESS, and Trojan over XTLS to bypass strict firewall restrictions.
+          </div>
+        </div>
+      </div>
+      <div class="op-item blue">
+        <div class="op-badge ongoing">ONGOING</div>
+        <div class="op-text">
+          <div class="op-name">ENTERPRISE CLOUD DEPLOYMENTS</div>
+          <div class="op-desc">
+            Stack: AWS · Linux · Fastly CDN — Continuous configuration of robust cloud environments.
+            SSH management via Termius · Aggressive DDoS protection · Cloudflare &amp; Fastly CDN optimization.
+          </div>
+        </div>
+      </div>
+      <div class="op-item green">
+        <div class="op-badge research">RESEARCH</div>
+        <div class="op-text">
+          <div class="op-name">CYBER SECURITY ACADEMIC RESEARCH</div>
+          <div class="op-desc">
+            Org: SLTC Research University · Senior Year — Deep-dive studies in network penetration testing using Kali Linux.
+            TryHackMe rooms · Nmap scanning · Security vulnerability analysis · Expanding into Figma UI/UX design.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── CONNECT ── -->
+    <div class="section-label">SECURE COMMUNICATION LINES</div>
+    <div class="connect-row">
+      <a class="connect-btn cb-green" href="https://oshadha.live" target="_blank">&#9632; PORTFOLIO</a>
+      <a class="connect-btn cb-blue"  href="https://www.linkedin.com/in/kavindu-oshadha-perera" target="_blank">&#9670; LINKEDIN</a>
+      <a class="connect-btn cb-red"   href="mailto:oshadhaperera500@gmail.com">&#9711; SECURE MAIL</a>
+      <a class="connect-btn cb-amber" href="https://t.me/oska_lex_vp" target="_blank">&#9672; TELEGRAM</a>
+      <a class="connect-btn cb-purple" href="https://wa.me/94754565755" target="_blank">&#9670; WHATSAPP</a>
+    </div>
+
+    <hr class="divider">
+
+    <!-- ── QUOTE ── -->
+    <div class="quote-block">
+      <div class="quote-mark">"</div>
+      <div class="quote-text">
+        Security is not a product, but a process. The enemy knows the system — you must know it better, faster, and deeper than they ever will.
+      </div>
+      <div class="quote-attr">// BRUCE SCHNEIER &nbsp;·&nbsp; ADAPTED</div>
+    </div>
+
+    <!-- ── FOOTER ── -->
+    <div class="footer">
+      <div class="ping-badge">SYSTEM_PINGS: ONLINE &nbsp;·&nbsp; ENCRYPTED &nbsp;·&nbsp; SECURE</div>
+      <div class="footer-text">END OF FILE // THANK YOU FOR VISITING THE MAINFRAME</div>
+    </div>
+
+  </div><!-- /content -->
+
+  <script>
+    // Animate stat counters
+    const counters = [
+      { id: 'c-commits', target: 247 },
+      { id: 'c-repos',   target: 34  },
+      { id: 'c-stars',   target: 89  },
+    ];
+
+    counters.forEach(({ id, target }) => {
+      const el = document.getElementById(id);
+      if (!el) return;
+      let count = 0;
+      const step = Math.max(1, Math.ceil(target / 50));
+      const iv = setInterval(() => {
+        count = Math.min(count + step, target);
+        el.textContent = count;
+        if (count >= target) clearInterval(iv);
+      }, 35);
+    });
+
+    // Animate skill bars on intersection
+    const fills = document.querySelectorAll('.bar-fill');
+
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const el = entry.target;
+          const w = el.getAttribute('data-w');
+          el.style.width = w + '%';
+          obs.unobserve(el);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    fills.forEach(f => obs.observe(f));
+  </script>
+</body>
+</html>
