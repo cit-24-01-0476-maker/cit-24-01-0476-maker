@@ -1,7 +1,7 @@
 # Hi, I'm Kavindu Oshadha Perera <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/TecnoDeVolper2008/TecnoDeVolper2008/refs/heads/main/Gif/Ghost.gif" alt="Ghost" width="120" height="120" />
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Man%20Astronaut.png" alt="Animated Astronaut" width="160" height="160" />
 </div>
 
 <h3 align="center">Next-Level Web Developer | Cloud Security | DevOps & Sec</h3>
