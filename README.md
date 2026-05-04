@@ -1,6 +1,6 @@
+<!-- TOP ANIMATED VISUAL COVER -->
 <div align="center">
-  <!-- VISUAL COVER BOARD / ANIMATED BANNER -->
-  <img src="https://i.pinimg.com/originals/93/2b/32/932b32252c8b030e2f5ffce3aeb3065a.gif" alt="Cloud Security Banner" width="100%" style="border-radius: 15px; border: 2px solid #00FF9D; box-shadow: 0 0 25px rgba(0, 255, 157, 0.3); margin-bottom: 25px;" />
+  <img src="https://i.pinimg.com/originals/e4/26/70/e426702edf874b181aced1e2fa5c6cde.gif" alt="Live Cyber Cover" width="100%" style="border-radius: 15px; margin-bottom: 20px; border: 2px solid #00FF9D; box-shadow: 0 0 25px rgba(0, 255, 157, 0.4);" />
 
   <!-- ELITE AVATAR -->
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Kavindu Oshadha Perera" width="150" height="150" style="border-radius: 50%; border: 3px solid #00FF9D; box-shadow: 0 0 20px rgba(0, 255, 157, 0.4); margin-bottom: 15px;" />
@@ -82,21 +82,18 @@ As a highly driven **Cyber Security & Cloud Infrastructure Specialist** based in
 
 ### 📊 GitHub Telemetry & Global Impact
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=cit-24-01-0476-maker&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF9D&icon_color=2CA5E0&text_color=c9d1d9" alt="GitHub Stats" height="195" style="margin-right: 10px;" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cit-24-01-0476-maker&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF9D&text_color=c9d1d9" alt="Top Languages" height="195" />
-</div>
+<!-- STATS FIXED: Removed from HTML Table to prevent breaking -->
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=cit-24-01-0476-maker&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF9D&icon_color=2CA5E0&text_color=c9d1d9" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cit-24-01-0476-maker&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF9D&text_color=c9d1d9" alt="Top Languages" />
+</p>
 
-<br>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=cit-24-01-0476-maker&theme=radical&hide_border=true&background=0D1117&ring=00FF9D&fire=2CA5E0&currStreakNum=FFFFFF&sideNums=c9d1d9&sideLabels=2CA5E0" alt="GitHub Streak" />
+</p>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=cit-24-01-0476-maker&theme=radical&bg_color=0D1117&color=00FF9D&line=2CA5E0&point=FFFFFF&hide_border=true&height=250" width="100%" alt="GitHub Activity Graph" style="border-radius: 8px;" />
-</p>
-
-<br>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=cit-24-01-0476-maker&theme=radical&hide_border=true&background=0D1117&ring=00FF9D&fire=2CA5E0&currStreakNum=FFFFFF&sideNums=c9d1d9&sideLabels=2CA5E0" alt="GitHub Streak" width="80%" />
 </p>
 
 <!-- ANIMATED LIGHT BAR -->
@@ -104,9 +101,9 @@ As a highly driven **Cyber Security & Cloud Infrastructure Specialist** based in
 
 ### 🏆 Open Source Trophies & Achievements
 
-<div align="center">
+<p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=cit-24-01-0476-maker&theme=radical&no-frame=true&no-bg=true&margin-w=15&title=white" alt="Trophies" width="100%" />
-</div>
+</p>
 
 <!-- ANIMATED LIGHT BAR -->
 <p align="center"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"></p>
@@ -132,10 +129,12 @@ I am actively open to discussions regarding:
   <a href="https://oshadha.live"><img src="https://img.shields.io/badge/Book_a_Meeting-0D1117?style=for-the-badge&logo=cal.com&logoColor=00FF9D&border=00FF9D" alt="Meeting"/></a>
 </p>
 
-<hr style="border: 1px solid #161b22;">
-
 <div align="center">
-  <p style="color: #8b949e; font-size: 0.9em;">System Telemetry Pings (Profile Views)</p>
+  <br>
   <img src="https://komarev.com/ghpvc/?username=cit-24-01-0476-maker&label=VIEWS&color=00FF9D&style=flat-square" alt="Profile Views" />
-  <p style="color: #8b949e; font-size: 0.8em;"><i>Last Updated: Tuesday, May 5, 2026</i></p>
+</div>
+
+<!-- ANIMATED SEA / WATER WAVES EFFECT AT THE END -->
+<div align="center" style="margin-top: 20px;">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=2CA5E0&height=120&section=footer" width="100%" alt="Animated Water Waves" />
 </div>
