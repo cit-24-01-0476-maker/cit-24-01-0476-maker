@@ -1,139 +1,125 @@
 <div align="center">
+  <!-- DYNAMIC THOUGHT LEADER BANNER -->
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="Cloud Security Banner" width="100%" style="border-radius: 12px; margin-bottom: 20px; box-shadow: 0 4px 30px rgba(0, 255, 157, 0.2);" />
 
-  <!-- Cyber Neon Banner -->
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" 
-       alt="Cyber Security Banner" width="100%" style="border-radius: 16px; margin-bottom: 20px; box-shadow: 0 0 40px rgba(0, 255, 157, 0.3);"/>
-
-  <!-- Animated Avatar -->
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" 
-       alt="Kavindu Oshadha Perera" width="160" height="160" 
-       style="border-radius: 50%; border: 5px solid #00FF9D; box-shadow: 0 0 35px rgba(0, 255, 157, 0.6); margin-bottom: 15px;"/>
-
-  <h1 style="font-size: 2.8em; margin: 10px 0 8px; background: linear-gradient(90deg, #00FF9D, #00D4FF, #FFFFFF); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
-    Kavindu Oshadha Perera <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="38">
+  <!-- ELITE AVATAR -->
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Kavindu Oshadha Perera" width="150" height="150" style="border-radius: 50%; border: 3px solid #00FF9D; box-shadow: 0 0 20px rgba(0, 255, 157, 0.4); margin-bottom: 15px;" />
+  
+  <h1 style="font-size: 2.5em; margin-bottom: 5px; color: #FFFFFF;">
+    Kavindu Oshadha Perera <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
   </h1>
+  <p style="font-size: 1.2em; color: #8b949e; margin-top: 0;">Cyber Security Architect | Cloud Infrastructure Engineer | Web Developer</p>
 
-  <p style="font-size: 1.35em; color: #00FF9D; margin-bottom: 8px; font-weight: 600;">
-    Cyber Security Architect • Cloud Infrastructure Engineer • Full-Stack Developer
-  </p>
-
-  <!-- Live Typing Animation -->
-  <a href="https://oshadha.live" target="_blank">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=900&color=00FF9D&center=true&vCenter=true&width=820&lines=Architecting+Zero-Trust+Cloud+Fortresses...;Building+Unbreakable+VPN+%26+Proxy+Systems...;Merging+Cyber+Security+%2B+AI+%2B+DevOps...;Turning+Complex+Infrastructure+into+Art..." alt="Dynamic Typing" />
+  <!-- DYNAMIC TYPING ANIMATION -->
+  <a href="https://oshadha.live">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00FF9D&center=true&vCenter=true&width=800&lines=Building+Zero-Trust+Cloud+Infrastructures...;Architecting+Secure+Full-Stack+Systems...;Innovating+with+Advanced+DevOps+%26+AI...;Making+Complex+Data+%26+Security+Simple..." alt="Typing SVG" />
   </a>
-
 </div>
 
-<br>
-
-<div align="center">
-  <!-- Premium Social Badges -->
-  <a href="https://oshadha.live"><img src="https://img.shields.io/badge/Portfolio-00FF9D?style=for-the-badge&logo=vercel&logoColor=black&labelColor=0D1117" alt="Website"/></a>
-  <a href="https://www.linkedin.com/in/kavindu-oshadha-perera"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:oshadhaperera500@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://t.me/oska_lex_vp"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
-  <a href="https://wa.me/94754565755"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/></a>
+<div align="center" style="margin-top: 15px;">
+  <!-- SOCIAL INFLUENCER BADGES -->
+  <a href="https://oshadha.live"><img src="https://img.shields.io/badge/Official_Website-0D1117?style=for-the-badge&logo=vercel&logoColor=00FF9D&border=00FF9D" alt="Portfolio"/></a>
+  <a href="https://www.linkedin.com/in/kavindu-oshadha-perera"><img src="https://img.shields.io/badge/LinkedIn_Network-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:oshadhaperera500@gmail.com"><img src="https://img.shields.io/badge/Direct_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://t.me/oska_lex_vp"><img src="https://img.shields.io/badge/Telegram_Comm-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
 </div>
 
 ---
 
 ### 🧠 Professional Summary
 
-**Sri Lankan Cyber Security Architect** with a passion for building **zero-trust**, high-resilience cloud infrastructures and secure full-stack systems. 
-
-I specialize in designing unbreakable VPN & proxy architectures (V2Ray/VLESS/Trojan), enterprise-grade cloud deployments, and next-gen DevOps pipelines powered by AI. My work focuses on making advanced security accessible while delivering exceptional performance and scalability.
+As a highly driven **Cyber Security & Cloud Infrastructure Specialist** based in Sri Lanka, I architect robust, zero-trust cloud environments and engineer high-performance web applications. Bridging the critical gap between scalable DevOps deployments, stringent network security protocols (V2Ray, Proxy Architectures), and modern Full-Stack development, I build digital ecosystems that are both resilient and seamless. My mission is to transform complex infrastructural challenges into secure, automated solutions.
 
 ---
 
-### 🔥 Current Missions & Flagship Projects
+### 🚀 Featured Engineering & Current Focus
 
-<table width="100%" align="center">
+<table width="100%" align="center" style="border-collapse: collapse; border: none;">
   <tr>
-    <td width="50%" valign="top" align="center" style="padding: 15px; background: #0D1117; border-radius: 12px;">
-      <h3 style="color: #00FF9D;">🛡️ Oska VPN Portal</h3>
-      <p><strong>Zero-log • High-speed • Firewall bypassing</strong></p>
-      <p>Advanced VPN management dashboard with custom proxy protocols for unrestricted, secure global access.</p>
-      <strong>Stack:</strong> <code>Next.js</code> • <code>Firebase</code> • <code>V2Ray</code> • <code>VLESS</code> • <code>Trojan</code>
+    <td width="50%" valign="top" style="padding: 10px;">
+      <h4 style="margin-top: 0; color: #00FF9D;">🛡️ Project: Oska VPN Portal</h4>
+      <p>Architecting a comprehensive, zero-log VPN management dashboard for secure, unmetered internet access. Integrating highly customized proxy protocols to bypass strict regional firewalls.</p>
+      <b>Tech Stack:</b> <code>Next.js</code>, <code>Firebase</code>, <code>VPS</code>, <code>V2Ray/VLESS/Trojan</code>
     </td>
-    <td width="50%" valign="top" align="center" style="padding: 15px; background: #0D1117; border-radius: 12px;">
-      <h3 style="color: #00D4FF;">☁️ Enterprise Cloud Fortress</h3>
-      <p><strong>High-Availability • DDoS Protected • Edge Optimized</strong></p>
-      <p>Designing and scaling resilient multi-cloud infrastructures with automated security layers.</p>
-      <strong>Stack:</strong> <code>AWS</code> • <code>DigitalOcean</code> • <code>Cloudflare</code> • <code>Kubernetes</code> • <code>Fastly</code>
+    <td width="50%" valign="top" style="padding: 10px;">
+      <h4 style="margin-top: 0; color: #2CA5E0;">☁️ Enterprise Cloud Deployments</h4>
+      <p>Continuous scaling and optimization of high-availability cloud environments. Implementing automated DDoS mitigation, load balancing, and edge-computing solutions.</p>
+      <b>Tech Stack:</b> <code>AWS</code>, <code>DigitalOcean</code>, <code>Linux</code>, <code>Fastly CDN</code>
     </td>
   </tr>
 </table>
 
 ---
 
-### 💻 Advanced Technical Arsenal
+### 💻 Technical Arsenal & Expertise
 
-**Cloud • Security • Infrastructure**
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=aws,cloudflare,digitalocean,linux,kali,ubuntu,docker,kubernetes,nginx,bash&theme=dark" />
-</p>
-
-**Development & AI**
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=nextjs,react,nodejs,typescript,python,firebase,tailwind,figma,vscode,github&theme=dark" />
-</p>
-
-**Specialized Tools**
+**Cloud, Security & DevOps Architecture**
 <p align="left">
-  <img src="https://img.shields.io/badge/V2Ray%20/%20VLESS-00FF9D?style=for-the-badge&logo=shield&logoColor=black" />
-  <img src="https://img.shields.io/badge/Trojan-00D4FF?style=for-the-badge&logo=lock&logoColor=black" />
-  <img src="https://img.shields.io/badge/OpenAI-74aa9c?style=for-the-badge&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=aws,cloudflare,linux,kali,ubuntu,windows,apple,docker,kubernetes,bash&theme=dark" />
+  <br>
+  <img src="https://img.shields.io/badge/AWS_Solutions-232F3E?style=flat-square&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/DigitalOcean_Droplets-0080FF?style=flat-square&logo=digitalocean&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linode_Instances-00A95C?style=flat-square&logo=linode&logoColor=white" />
+  <img src="https://img.shields.io/badge/Fastly_Edge-000000?style=flat-square&logo=fastly&logoColor=white" />
+  <img src="https://img.shields.io/badge/Termius_SSH-2A354E?style=flat-square&logo=termius&logoColor=white" />
+</p>
+
+**Full-Stack Development & AI Integration**
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=nextjs,react,nodejs,firebase,ts,js,python,html,css,figma,github,vscode&theme=dark" />
+  <br>
+  <img src="https://img.shields.io/badge/OpenAI_ChatGPT-74aa9c?style=flat-square&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=google&logoColor=white" />
+  <img src="https://img.shields.io/badge/Claude_AI-D97757?style=flat-square&logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/WormGPT_Sec-000000?style=flat-square&logo=matrix&logoColor=00FF9D" />
 </p>
 
 ---
 
-### 📊 Live GitHub Telemetry
+### 📊 GitHub Telemetry & Global Impact
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=cit-24-01-0476-maker&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF9D&icon_color=00D4FF&text_color=c9d1d9" width="100%" />
-      </td>
-      <td align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cit-24-01-0476-maker&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF9D&text_color=c9d1d9" width="100%" />
-      </td>
-    </tr>
-  </table>
-</div>
+<table align="center" width="100%" style="border: none;">
+  <tr>
+    <td align="center" width="50%" style="padding: 5px;">
+      <img src="https://github-readme-stats.vercel.app/api?username=cit-24-01-0476-maker&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF9D&icon_color=2CA5E0&text_color=c9d1d9" alt="GitHub Stats" width="100%" />
+    </td>
+    <td align="center" width="50%" style="padding: 5px;">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cit-24-01-0476-maker&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF9D&text_color=c9d1d9" alt="Top Languages" width="100%" />
+    </td>
+  </tr>
+</table>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=cit-24-01-0476-maker&theme=radical&bg_color=0D1117&color=00FF9D&line=00D4FF&point=FFFFFF&hide_border=true&height=280" width="100%" style="border-radius: 12px;"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=cit-24-01-0476-maker&theme=radical&bg_color=0D1117&color=00FF9D&line=2CA5E0&point=FFFFFF&hide_border=true&height=250" width="100%" alt="GitHub Activity Graph" style="border-radius: 8px;" />
 </p>
 
 ---
 
-### 🎓 Education & Credentials
+### 🎓 Education & Certifications
 
-- **BSc (Hons) in Cyber Security (3rd Year)** — *SLTC Research University*  
-  *Focus: Network Security, Penetration Testing, Cryptography, Cloud Architecture*
-- **Advanced Certificate in English** — *CINEC Campus (2025)*
-
----
-
-### 🤝 Open for Collaboration
-
-I'm actively seeking opportunities in:
-- Cloud Security Architecture & Audits
-- Advanced VPN / Proxy Solutions
-- Secure Full-Stack Development
-- DevOps + AI Integration Projects
-- Speaking & Knowledge Sharing
-
-**Connect with me:**
-- Portfolio → [oshadha.live](https://oshadha.live)
-- WhatsApp → [Chat Now](https://wa.me/94754565755)
+* **BSc (Hons) in Cyber Security (3rd Year)** — *SLTC Research University*
+  * *Focus:* Network Security, Penetration Testing (Kali Linux/Nmap), Cryptography, Cloud Infrastructure.
+* **Advanced Certificate in English** — *CINEC Campus (2025)*
+  * *Focus:* Professional Communication & Technical Writing.
 
 ---
+
+### 🤝 Let's Collaborate
+
+I am actively open to discussions regarding:
+* **Consulting:** Cloud Architecture Security Audits & Infrastructure Scaling.
+* **Collaborations:** Open-Source DevOps & Next.js projects.
+* **Networking:** Connecting with fellow Cyber Security Enthusiasts and Full-Stack Engineers.
+
+<p align="center">
+  <a href="https://wa.me/94754565755"><img src="https://img.shields.io/badge/Chat_on_WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/></a>
+  <a href="https://oshadha.live"><img src="https://img.shields.io/badge/Book_a_Meeting-0D1117?style=for-the-badge&logo=cal.com&logoColor=00FF9D&border=00FF9D" alt="Meeting"/></a>
+</p>
+
+<hr style="border: 1px solid #161b22;">
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=cit-24-01-0476-maker&label=PROFILE%20VIEWS&color=00FF9D&style=for-the-badge" alt="Views"/>
-  <br><br>
-  <sub><i>Last Updated: May 04, 2026 • Built with Cyber Precision ⚡</i></sub>
+  <p style="color: #8b949e; font-size: 0.9em;">System Telemetry Pings (Profile Views)</p>
+  <img src="https://komarev.com/ghpvc/?username=cit-24-01-0476-maker&label=VIEWS&color=00FF9D&style=flat-square" alt="Profile Views" />
+  <p style="color: #8b949e; font-size: 0.8em;"><i>Last Updated: Monday, May 4, 2026</i></p>
 </div>
