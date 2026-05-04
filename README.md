@@ -1,4 +1,4 @@
-# Hi, I'm Kavindu Oshadha Perera 👋
+# Hi, I'm Kavindu Oshadha Perera <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Books.png" alt="Books" width="180" height="180" />
