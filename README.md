@@ -1,7 +1,4 @@
-<!-- TOP ANIMATED VISUAL COVER -->
 <div align="center">
-  <img src="https://i.pinimg.com/originals/e4/26/70/e426702edf874b181aced1e2fa5c6cde.gif" alt="Live Cyber Cover" width="100%" style="border-radius: 15px; margin-bottom: 20px; border: 2px solid #00FF9D; box-shadow: 0 0 25px rgba(0, 255, 157, 0.4);" />
-
   <!-- ELITE AVATAR -->
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Kavindu Oshadha Perera" width="150" height="150" style="border-radius: 50%; border: 3px solid #00FF9D; box-shadow: 0 0 20px rgba(0, 255, 157, 0.4); margin-bottom: 15px;" />
   
@@ -82,14 +79,17 @@ As a highly driven **Cyber Security & Cloud Infrastructure Specialist** based in
 
 ### 📊 GitHub Telemetry & Global Impact
 
-<!-- STATS FIXED: Removed from HTML Table to prevent breaking -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=cit-24-01-0476-maker&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF9D&icon_color=2CA5E0&text_color=c9d1d9" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cit-24-01-0476-maker&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF9D&text_color=c9d1d9" alt="Top Languages" />
+  <a href="https://github.com/cit-24-01-0476-maker">
+    <img src="https://github-readme-stats.vercel.app/api?username=cit-24-01-0476-maker&show_icons=true&theme=radical&hide_border=true" height="195" alt="GitHub Stats" />
+  </a>
+  <a href="https://github.com/cit-24-01-0476-maker">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cit-24-01-0476-maker&layout=compact&theme=radical&hide_border=true" height="195" alt="Top Languages" />
+  </a>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=cit-24-01-0476-maker&theme=radical&hide_border=true&background=0D1117&ring=00FF9D&fire=2CA5E0&currStreakNum=FFFFFF&sideNums=c9d1d9&sideLabels=2CA5E0" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=cit-24-01-0476-maker&theme=radical&hide_border=true&background=0D1117&ring=00FF9D&fire=2CA5E0&currStreakNum=FFFFFF" alt="GitHub Streak" />
 </p>
 
 <p align="center">
