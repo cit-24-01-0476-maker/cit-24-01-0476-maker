@@ -67,7 +67,7 @@ Explore my work at <a href="https://oshadha.live">oshadha.live</a><br>
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cit-24-01-0476-maker&amp;layout=compact&amp;hide_border=true&amp;bg_color=0b0f18&amp;title_color=22d3ee&amp;text_color=e6e9f0" alt="Most used public repository languages" />
 </p>
 <p align="center"><img src="https://streak-stats.demolab.com?user=cit-24-01-0476-maker&amp;hide_border=true&amp;background=0b0f18&amp;ring=22d3ee&amp;fire=6366f1&amp;currStreakLabel=22d3ee&amp;sideLabels=a5b4fc&amp;currStreakNum=e6e9f0&amp;sideNums=e6e9f0&amp;dates=8b93a7" alt="GitHub contribution streak" /></p>
-<p align="center"><img width="96%" src="https://raw.githubusercontent.com/cit-24-01-0476-maker/cit-24-01-0476-maker/output/github-contribution-grid-snake-dark.svg" alt="Animated snake following my public GitHub contributions" /></p>
+<p align="center"><img width="96%" src="https://raw.githubusercontent.com/cit-24-01-0476-maker/cit-24-01-0476-maker/output/github-contribution-grid-snake-dark.svg?v=1" alt="Animated snake following my public GitHub contributions" /></p>
 
 
 
