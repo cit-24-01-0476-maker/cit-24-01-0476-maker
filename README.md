@@ -59,7 +59,7 @@ Explore my work at <a href="https://oshadha.live">oshadha.live</a><br>
 
 <p align="center"><a href="https://github.com/cit-24-01-0476-maker?tab=repositories"><b>Explore all repositories →</b></a></p>
 
-<p align="center"><img width="100%" src="./assets/kavindu-pipeline-4.svg" alt="Animated CI/CD pipeline illustration" /></p>
+<p align="center"><img width="100%" src="./assets/kavindu-pipeline-5.svg" alt="Animated CI/CD merge stage" /></p>
 
 <h2 align="center">Activity</h2>
 <p align="center">
@@ -69,7 +69,7 @@ Explore my work at <a href="https://oshadha.live">oshadha.live</a><br>
 <p align="center"><img src="https://streak-stats.demolab.com?user=cit-24-01-0476-maker&amp;hide_border=true&amp;background=0b0f18&amp;ring=22d3ee&amp;fire=6366f1&amp;currStreakLabel=22d3ee&amp;sideLabels=a5b4fc&amp;currStreakNum=e6e9f0&amp;sideNums=e6e9f0&amp;dates=8b93a7" alt="GitHub contribution streak" /></p>
 <p align="center"><img width="96%" src="https://raw.githubusercontent.com/cit-24-01-0476-maker/cit-24-01-0476-maker/output/github-contribution-grid-snake-dark.svg" alt="Animated snake following my public GitHub contributions" /></p>
 
-<p align="center"><img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=cit-24-01-0476-maker&amp;bg_color=0b0f18&amp;color=a5b4fc&amp;line=22d3ee&amp;point=e6e9f0&amp;hide_border=true" alt="Kavindu's public GitHub contribution activity" /></p>
+
 
 <p align="center"><img width="100%" src="./assets/kavindu-pipeline-6.svg" alt="Animated CI/CD deploy stage" /></p>
 <p align="center"><img width="100%" src="./assets/kavindu-pets.svg" alt="Animated developer companions: debugging duck, cat, dog and bird" /></p>
