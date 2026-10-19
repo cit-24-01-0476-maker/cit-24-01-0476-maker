@@ -1,19 +1,20 @@
 <p align="center"><a href="https://oshadha.live"><img width="100%" src="./assets/kavindu-cloud-hero.svg" alt="Kavindu Oshadha — Cloud Computing Undergraduate" /></a></p>
 
-<p align="center"><img width="100%" src="./assets/kavindu-pipeline-1.svg" alt="Animated CI/CD pipeline illustration" /></p>
+<p align="center"><img width="100%" src="./assets/kavindu-pipeline-1.svg" alt="Illustrated CI/CD commit stage" /></p>
+<p align="center"><sub>Animated pipeline illustrations show a development workflow.</sub></p>
 
 <table align="center" width="96%"><tr><td valign="top">
 
 <h2>Building for the web &amp; the cloud</h2>
 
-<p>I'm <strong>Kavindu Oshadha Perera</strong>, a cloud computing undergraduate based in <strong>Sri Lanka</strong>, with an interest in DevOps, networking and web development.</p>
+<p>I'm <strong>Kavindu Oshadha Perera</strong>, a cloud computing undergraduate based in <strong>Sri Lanka</strong>, exploring Azure, AWS, DevOps and networking while building web applications.</p>
 
 <p>I enjoy turning ideas into practical projects and learning how to build, deploy and maintain reliable systems.</p>
 
 <table>
 <tr>
 <td><strong>Web Development</strong><br><sub>Next.js · React · TypeScript · Node.js</sub></td>
-<td><strong>Cloud &amp; Infrastructure</strong><br><sub>AWS · DigitalOcean · Linux · VPS</sub></td>
+<td><strong>Cloud &amp; Infrastructure</strong><br><sub>Azure · AWS · Linux · VPS</sub></td>
 </tr>
 <tr>
 <td><strong>DevOps &amp; Tools</strong><br><sub>Docker · Git · GitHub · Bash</sub></td>
@@ -31,6 +32,15 @@ Explore my work at <a href="https://oshadha.live">oshadha.live</a><br>
 <a href="https://www.linkedin.com/in/kavindu-oshadha-perera/"><img src="https://img.shields.io/badge/LinkedIn-4F46E5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" /></a>
 </p>
 
+<!-- LINKEDIN-POSTS:START -->
+<h2 align="center">Latest on LinkedIn</h2>
+<p align="center">Cloud learning notes, practical projects and developer opportunities.</p>
+<p align="center"><a href="https://lnkd.in/p/gFyHEUiB"><img width="100%" src="./assets/linkedin-post-1.svg?v=7517890523660050432" alt="Hostinger Restore: build for a greener future" /></a></p>
+<p align="center"><a href="https://lnkd.in/p/gybPkATE"><img width="100%" src="./assets/linkedin-post-2.svg?v=7517880515429892096" alt="Build your first website with Microsoft Azure" /></a></p>
+<p align="center"><a href="https://lnkd.in/p/g4ZBBq9S"><img width="100%" src="./assets/linkedin-post-3.svg?v=7517505613963243520" alt="Compute. Networking. Storage." /></a></p>
+<p align="center"><a href="https://www.linkedin.com/in/kavindu-oshadha-perera/recent-activity/all/">See all posts on LinkedIn →</a></p>
+<!-- LINKEDIN-POSTS:END -->
+
 <p align="center"><img width="100%" src="./assets/kavindu-pipeline-2.svg" alt="Animated CI/CD pipeline illustration" /></p>
 
 <p align="center"><img width="420" src="./assets/kavindu-octocat.svg" alt="Animated Octocat coding on a laptop" /></p>
@@ -44,20 +54,22 @@ Explore my work at <a href="https://oshadha.live">oshadha.live</a><br>
 
 <p align="center"><img width="100%" src="./assets/kavindu-services.svg" alt="From idea to cloud: web apps, networking, cloud and report tools" /></p>
 <p align="center"><img width="100%" src="./assets/kavindu-pipeline-4.svg" alt="Animated CI/CD review stage" /></p>
-<h2 align="center">Featured Work</h2>
-
+<h2 align="center">Selected Projects</h2>
 <table align="center" width="96%">
 <tr>
-<td width="50%" valign="top"><h3>Oska VPN Portal</h3><sub>Next.js · Firebase · VPS</sub><p>A portal project focused on VPN services and infrastructure.</p><a href="https://oskavpn.codes">Visit project →</a></td>
-<td width="50%" valign="top"><h3>Dynamic Portfolio</h3><sub>Personal website</sub><p>My online space for projects, skills and contact details.</p><a href="https://oshadha.live">Visit portfolio →</a> · <a href="https://github.com/cit-24-01-0476-maker/dynamic-portfolio">Source</a></td>
+<td width="50%" valign="top"><h3>ResearchScope AI</h3><sub>Python · NLP · Streamlit</sub><p>Group 20 research-paper classification project comparing six models across six subjects. My work: preprocessing, Logistic Regression and LSTM.</p><a href="https://researchscope-ai.streamlit.app/">Live preview</a> · <a href="https://github.com/cit-24-01-0476-maker/NLP_Group_20_ROT-NLP-Solutions_">Source &amp; documentation</a></td>
+<td width="50%" valign="top"><h3>SLTC GPA Calculator</h3><sub>React · Tailwind CSS · Framer Motion</sub><p>Curriculum-based academic workspace for semester and cumulative GPA tracking, with PDF export.</p><a href="https://gpa.sltc.oshadha.live/">Live preview</a> · <a href="https://github.com/cit-24-01-0476-maker/GPA-SLTC">Source &amp; documentation</a></td>
 </tr>
 <tr>
-<td width="50%" valign="top"><h3>Leo Treasury Report Maker</h3><sub>TypeScript</sub><p>A project for creating treasury reports.</p><a href="https://github.com/cit-24-01-0476-maker/Leo-Tresuare-Report-Maker">Explore repository →</a></td>
-<td width="50%" valign="top"><h3>SPM Web Project</h3><sub>Web development</sub><p>A web project in my development portfolio.</p><a href="https://github.com/cit-24-01-0476-maker/SPM-WEB-INTRO-FINAL">Explore repository →</a></td>
+<td width="50%" valign="top"><h3>OSKA VPN Portal</h3><sub>Next.js · TypeScript · Prisma</sub><p>Customer subscription portal with usage dashboards, account management and VPN configuration tools.</p><a href="https://github.com/cit-24-01-0476-maker/oskavpn-portal-web-2026">Source &amp; documentation</a></td>
+<td width="50%" valign="top"><h3>SPM ECO</h3><sub>React · TypeScript · TanStack Start</sub><p>University team project exploring smarter parking through web platforms, mobile interfaces and an IoT prototype.</p><a href="https://spm-eco-smart-parking.vercel.app">Live preview</a> · <a href="https://github.com/cit-24-01-0476-maker/SPM-WEB-INTRO-FINAL">Source &amp; documentation</a></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><h3>oska.AI</h3><sub>JavaScript · Multi-provider AI</sub><p>AI workspace bringing model chat, web search and file tools into one interface.</p><a href="https://github.com/cit-24-01-0476-maker/oska.ai.web">Source &amp; documentation</a></td>
+<td width="50%" valign="top"><h3>LaptopGuard AI</h3><sub>Python · FastAPI · TypeScript · Flutter</sub><p>Laptop security project spanning a desktop agent, web dashboard, backend and mobile client.</p><a href="https://github.com/cit-24-01-0476-maker/laptop.guard.ai">Source &amp; documentation</a></td>
 </tr>
 </table>
-
-<p align="center"><a href="https://github.com/cit-24-01-0476-maker?tab=repositories"><b>Explore all repositories →</b></a></p>
+<p align="center"><a href="https://github.com/cit-24-01-0476-maker?tab=repositories">Explore all public projects →</a> · <a href="https://oshadha.live">My portfolio →</a></p>
 
 <p align="center"><img width="100%" src="./assets/kavindu-pipeline-5.svg" alt="Animated CI/CD merge stage" /></p>
 

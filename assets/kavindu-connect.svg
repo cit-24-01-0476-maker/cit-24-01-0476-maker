@@ -13,7 +13,7 @@
     .w1 { animation: wave 7s ease-in-out infinite; }
     .w2 { animation: wave 9s ease-in-out 1s infinite; }
     .cursor { animation: blink 1s step-end infinite; }
-  </style>
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }</style>
   <defs>
     <linearGradient id="bg" x1="0" x2="1">
       <stop offset="0" stop-color="#0b1220"/><stop offset=".5" stop-color="#101a2c"/><stop offset="1" stop-color="#10152e"/>

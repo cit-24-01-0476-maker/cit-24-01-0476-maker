@@ -32,7 +32,7 @@
     .d1 { animation: dots 1.2s infinite; } .d2 { animation: dots 1.2s .2s infinite; } .d3 { animation: dots 1.2s .4s infinite; }
     .cur { animation: cur 1s step-end infinite; }
     .spark { animation: spark 1.8s ease-out infinite; }
-  </style>
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }</style>
   <defs>
     <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0d1320"/><stop offset="1" stop-color="#0a0e17"/>
@@ -61,12 +61,12 @@
     <!-- header -->
     <circle cx="82" cy="48" r="6" fill="#22d3ee" class="core"/>
     <text x="98" y="54" font-size="17" fill="#e6e9f0">ship.yml</text>
-    <text x="196" y="54" font-size="17" fill="#5c6478">· run #131 · main</text>
-    <text x="800" y="54" text-anchor="middle" font-size="16" fill="#8b93a7"><tspan fill="#22d3ee">$</tspan> review: 2 approvals<tspan class="cur" fill="#22d3ee"> ▍</tspan></text>
+    <text x="196" y="54" font-size="17" fill="#5c6478">· demo · main</text>
+    <text x="800" y="54" text-anchor="middle" font-size="16" fill="#8b93a7"><tspan fill="#22d3ee">$</tspan> review changes<tspan class="cur" fill="#22d3ee"> ▍</tspan></text>
     <rect x="1260" y="30" width="150" height="34" rx="17" fill="#22d3ee" fill-opacity=".12" stroke="#22d3ee" stroke-opacity=".55"/>
     <text x="1320" y="53" text-anchor="middle" font-size="15" font-weight="700" fill="#22d3ee">RUNNING</text>
     <g fill="#22d3ee" font-size="15" font-weight="700"><text class="d1" x="1362" y="53">.</text><text class="d2" x="1370" y="53">.</text><text class="d3" x="1378" y="53">.</text></g>
-    <text x="1528" y="54" text-anchor="end" font-size="15" fill="#5c6478">1m 32s</text>
+    <text x="1528" y="54" text-anchor="end" font-size="15" fill="#5c6478">DEMO</text>
 
     <!-- progress -->
     <rect x="82" y="76" width="1436" height="4" rx="2" fill="#fff" fill-opacity=".06"/>

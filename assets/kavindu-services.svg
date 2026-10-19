@@ -14,7 +14,7 @@
     .flow { stroke-dasharray: 8 12; animation: dash 5s linear infinite; }
     .live { animation: pulse 1.8s ease-in-out infinite; }
     .core { animation: glow 3s ease-in-out infinite; }
-  </style>
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }</style>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#07090f"/><stop offset="1" stop-color="#0d1320"/>

@@ -29,7 +29,7 @@
     .c3 { animation: commit 3.6s ease-out 2.4s infinite; }
     .cur { animation: cursor 1s step-end infinite; }
     .screen { animation: glow 2.4s ease-in-out infinite; }
-  </style>
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }</style>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#151d2e"/>

@@ -32,7 +32,7 @@
     .d1 { animation: dots 1.2s infinite; } .d2 { animation: dots 1.2s .2s infinite; } .d3 { animation: dots 1.2s .4s infinite; }
     .cur { animation: cur 1s step-end infinite; }
     .spark { animation: spark 1.8s ease-out infinite; }
-  </style>
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }</style>
   <defs>
     <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0d1320"/><stop offset="1" stop-color="#0a0e17"/>
@@ -61,12 +61,12 @@
     <!-- header -->
     <circle cx="82" cy="48" r="6" fill="#28c840" class="core"/>
     <text x="98" y="54" font-size="17" fill="#e6e9f0">ship.yml</text>
-    <text x="196" y="54" font-size="17" fill="#5c6478">· run #134 · main</text>
+    <text x="196" y="54" font-size="17" fill="#5c6478">· demo · main</text>
     <text x="800" y="54" text-anchor="middle" font-size="16" fill="#8b93a7"><tspan fill="#28c840">$</tspan> https://sandeepa.online<tspan class="cur" fill="#28c840"> ▍</tspan></text>
     <rect x="1260" y="30" width="150" height="34" rx="17" fill="#28c840" fill-opacity=".12" stroke="#28c840" stroke-opacity=".55"/>
     <text x="1320" y="53" text-anchor="middle" font-size="15" font-weight="700" fill="#28c840">SUCCESS</text>
     
-    <text x="1528" y="54" text-anchor="end" font-size="15" fill="#5c6478">2m 41s</text>
+    <text x="1528" y="54" text-anchor="end" font-size="15" fill="#5c6478">DEMO</text>
 
     <!-- progress -->
     <rect x="82" y="76" width="1436" height="4" rx="2" fill="#fff" fill-opacity=".06"/>

@@ -32,7 +32,7 @@
     .d1 { animation: dots 1.2s infinite; } .d2 { animation: dots 1.2s .2s infinite; } .d3 { animation: dots 1.2s .4s infinite; }
     .cur { animation: cur 1s step-end infinite; }
     .spark { animation: spark 1.8s ease-out infinite; }
-  </style>
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }</style>
   <defs>
     <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0d1320"/><stop offset="1" stop-color="#0a0e17"/>

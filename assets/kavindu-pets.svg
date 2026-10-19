@@ -65,7 +65,7 @@
 
     @keyframes twinkle { 0%,100% { opacity: .2; } 50% { opacity: .9; } }
     .t1 { animation: twinkle 3s ease-in-out infinite; } .t2 { animation: twinkle 4s ease-in-out 1s infinite; } .t3 { animation: twinkle 5s ease-in-out 2s infinite; }
-  </style>
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }</style>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#07090f"/><stop offset="1" stop-color="#101827"/>
