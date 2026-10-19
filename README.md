@@ -35,9 +35,9 @@ Explore my work at <a href="https://oshadha.live">oshadha.live</a><br>
 <!-- LINKEDIN-POSTS:START -->
 <h2 align="center">Latest on LinkedIn</h2>
 <p align="center">Cloud learning notes, practical projects and developer opportunities.</p>
-<p align="center"><a href="https://lnkd.in/p/gFyHEUiB"><img width="100%" src="./assets/linkedin-post-1.svg?v=7517890523660050432" alt="Hostinger Restore: build for a greener future" /></a></p>
-<p align="center"><a href="https://lnkd.in/p/gybPkATE"><img width="100%" src="./assets/linkedin-post-2.svg?v=7517880515429892096" alt="Build your first website with Microsoft Azure" /></a></p>
-<p align="center"><a href="https://lnkd.in/p/g4ZBBq9S"><img width="100%" src="./assets/linkedin-post-3.svg?v=7517505613963243520" alt="Compute. Networking. Storage." /></a></p>
+<p align="center"><a href="https://www.linkedin.com/posts/kavindu-oshadha-perera_techopportunityradar-hostingerrestore-techforgood-share-7517890522225676288-26ID/"><img width="100%" src="./assets/linkedin-post-1.svg?v=7517890522225676288" alt="Hostinger Restore: build for a greener future" /></a></p>
+<p align="center"><a href="https://www.linkedin.com/posts/kavindu-oshadha-perera_microsoftazure-cloudcomputing-webdevelopment-share-7517880514201063424-3Yo_/"><img width="100%" src="./assets/linkedin-post-2.svg?v=7517880514201063424" alt="Build your first website with Microsoft Azure" /></a></p>
+<p align="center"><a href="https://www.linkedin.com/posts/kavindu-oshadha-perera_microsoftazure-cloudcomputing-microsoftlearn-share-7517505612575072256-EAKj/"><img width="100%" src="./assets/linkedin-post-3.svg?v=7517505612575072256" alt="Compute. Networking. Storage." /></a></p>
 <p align="center"><a href="https://www.linkedin.com/in/kavindu-oshadha-perera/recent-activity/all/">See all posts on LinkedIn →</a></p>
 <!-- LINKEDIN-POSTS:END -->
 
@@ -75,7 +75,7 @@ Explore my work at <a href="https://oshadha.live">oshadha.live</a><br>
 
 <h2 align="center">Activity</h2>
 <p align="center">
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=cit-24-01-0476-maker&amp;show_icons=true&amp;hide_border=true&amp;bg_color=0b0f18&amp;title_color=22d3ee&amp;icon_color=a5b4fc&amp;text_color=e6e9f0" alt="GitHub statistics" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=cit-24-01-0476-maker&amp;show_icons=true&amp;hide_rank=true&amp;hide_border=true&amp;bg_color=0b0f18&amp;title_color=22d3ee&amp;icon_color=a5b4fc&amp;text_color=e6e9f0" alt="GitHub statistics" />
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cit-24-01-0476-maker&amp;layout=compact&amp;hide_border=true&amp;bg_color=0b0f18&amp;title_color=22d3ee&amp;text_color=e6e9f0" alt="Most used public repository languages" />
 </p>
 <p align="center"><img src="https://streak-stats.demolab.com?user=cit-24-01-0476-maker&amp;hide_border=true&amp;background=0b0f18&amp;ring=22d3ee&amp;fire=6366f1&amp;currStreakLabel=22d3ee&amp;sideLabels=a5b4fc&amp;currStreakNum=e6e9f0&amp;sideNums=e6e9f0&amp;dates=8b93a7" alt="GitHub contribution streak" /></p>

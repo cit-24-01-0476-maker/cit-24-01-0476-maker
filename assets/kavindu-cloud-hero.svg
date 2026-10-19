@@ -27,7 +27,7 @@
     .live { animation: pulse 1.6s ease-in-out infinite; }
     .flow { stroke-dasharray: 6 10; animation: dash 6s linear infinite; }
     .ring { transform-origin: 1290px 250px; animation: spin 30s linear infinite; }
-  </style>
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }</style>
 
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
