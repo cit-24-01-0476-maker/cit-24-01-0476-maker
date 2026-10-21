@@ -35,9 +35,9 @@ Explore my work at <a href="https://oshadha.live">oshadha.live</a><br>
 <!-- LINKEDIN-POSTS:START -->
 <h2 align="center">Latest on LinkedIn</h2>
 <p align="center">Cloud learning notes, practical projects and developer opportunities.</p>
-<p align="center"><a href="https://www.linkedin.com/posts/kavindu-oshadha-perera_techopportunityradar-hostingerrestore-techforgood-share-7517890522225676288-26ID/"><img width="100%" src="./assets/linkedin-post-1.svg?v=7517890522225676288" alt="Hostinger Restore: build for a greener future" /></a></p>
-<p align="center"><a href="https://www.linkedin.com/posts/kavindu-oshadha-perera_microsoftazure-cloudcomputing-webdevelopment-share-7517880514201063424-3Yo_/"><img width="100%" src="./assets/linkedin-post-2.svg?v=7517880514201063424" alt="Build your first website with Microsoft Azure" /></a></p>
-<p align="center"><a href="https://www.linkedin.com/posts/kavindu-oshadha-perera_microsoftazure-cloudcomputing-microsoftlearn-share-7517505612575072256-EAKj/"><img width="100%" src="./assets/linkedin-post-3.svg?v=7517505612575072256" alt="Compute. Networking. Storage." /></a></p>
+<p align="center"><a href="https://www.linkedin.com/posts/kavindu-oshadha-perera_cloudsecurity-devsecops-microsoftazure-share-7518606179913285632-IWTV/"><img width="100%" src="./assets/linkedin-post-1.svg?v=7518606179913285632" alt="Protect your code and keep credentials secure" /></a></p>
+<p align="center"><a href="https://www.linkedin.com/posts/kavindu-oshadha-perera_techopportunityradar-githubeducation-studentdevelopers-share-7518594207381417984-OGsV/"><img width="100%" src="./assets/linkedin-post-2.svg?v=7518594207381417984" alt="Explore the GitHub Student Developer Pack" /></a></p>
+<p align="center"><a href="https://www.linkedin.com/posts/kavindu-oshadha-perera_techopportunityradar-hostingerrestore-techforgood-share-7517890522225676288-26ID/"><img width="100%" src="./assets/linkedin-post-3.svg?v=7517890522225676288" alt="Hostinger Restore: build for a greener future" /></a></p>
 <p align="center"><a href="https://www.linkedin.com/in/kavindu-oshadha-perera/recent-activity/all/">See all posts on LinkedIn →</a></p>
 <!-- LINKEDIN-POSTS:END -->
 

@@ -1,26 +1,26 @@
 [
   {
+    "id": "7518606179913285632",
+    "date": "2026-10-21",
+    "category": "CLOUD SECURITY",
+    "title": "Protect your code and keep credentials secure",
+    "summary": "Three developer security habits: check commits for secrets, manage credentials with Azure Key Vault, and revoke or rotate exposed keys.",
+    "url": "https://www.linkedin.com/posts/kavindu-oshadha-perera_cloudsecurity-devsecops-microsoftazure-share-7518606179913285632-IWTV/"
+  },
+  {
+    "id": "7518594207381417984",
+    "date": "2026-10-21",
+    "category": "TECH OPPORTUNITY RADAR",
+    "title": "Explore the GitHub Student Developer Pack",
+    "summary": "Episode 002 introduces developer tools and learning benefits for eligible students. Verification and individual partner conditions apply.",
+    "url": "https://www.linkedin.com/posts/kavindu-oshadha-perera_techopportunityradar-githubeducation-studentdevelopers-share-7518594207381417984-OGsV/"
+  },
+  {
     "id": "7517890522225676288",
     "date": "2026-10-19",
     "category": "TECH OPPORTUNITY RADAR",
     "title": "Hostinger Restore: build for a greener future",
     "summary": "Episode 001 explores a hosting and website-building opportunity for eligible environmental projects. Application and approval required.",
     "url": "https://www.linkedin.com/posts/kavindu-oshadha-perera_techopportunityradar-hostingerrestore-techforgood-share-7517890522225676288-26ID/"
-  },
-  {
-    "id": "7517880514201063424",
-    "date": "2026-10-19",
-    "category": "FROM CODE TO CLOUD",
-    "title": "Build your first website with Microsoft Azure",
-    "summary": "A beginner-friendly roadmap: build a portfolio, configure Azure Storage, upload your files and go live.",
-    "url": "https://www.linkedin.com/posts/kavindu-oshadha-perera_microsoftazure-cloudcomputing-webdevelopment-share-7517880514201063424-3Yo_/"
-  },
-  {
-    "id": "7517505612575072256",
-    "date": "2026-10-18",
-    "category": "AZURE FUNDAMENTALS",
-    "title": "Compute. Networking. Storage.",
-    "summary": "Three cloud building blocks explained with practical examples and Microsoft Learn resources for beginners.",
-    "url": "https://www.linkedin.com/posts/kavindu-oshadha-perera_microsoftazure-cloudcomputing-microsoftlearn-share-7517505612575072256-EAKj/"
   }
 ]
