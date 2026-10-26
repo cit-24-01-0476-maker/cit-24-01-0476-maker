@@ -1,26 +1,26 @@
 [
   {
-    "id": "7518606179913285632",
-    "date": "2026-10-21",
-    "category": "CLOUD SECURITY",
-    "title": "Protect your code and keep credentials secure",
-    "summary": "Three developer security habits: check commits for secrets, manage credentials with Azure Key Vault, and revoke or rotate exposed keys.",
-    "url": "https://www.linkedin.com/posts/kavindu-oshadha-perera_cloudsecurity-devsecops-microsoftazure-share-7518606179913285632-IWTV/"
+    "id": "7520331986578690048",
+    "date": "2026-10-26",
+    "category": "DEVOPS & AUTOMATION",
+    "title": "Automate builds and Azure deployments with GitHub Actions",
+    "summary": "A CI/CD learning roadmap: trigger workflows on code pushes, build and test projects, then deploy to Azure with secure credentials and checks.",
+    "url": "https://www.linkedin.com/posts/kavindu-oshadha-perera_githubactions-devops-cicd-share-7520331986578690048-_jrG/"
   },
   {
-    "id": "7518594207381417984",
-    "date": "2026-10-21",
-    "category": "TECH OPPORTUNITY RADAR",
-    "title": "Explore the GitHub Student Developer Pack",
-    "summary": "Episode 002 introduces developer tools and learning benefits for eligible students. Verification and individual partner conditions apply.",
-    "url": "https://www.linkedin.com/posts/kavindu-oshadha-perera_techopportunityradar-githubeducation-studentdevelopers-share-7518594207381417984-OGsV/"
+    "id": "7519759271895613440",
+    "date": "2026-10-24",
+    "category": "AI LEARNING",
+    "title": "Explore LLMs, prompt engineering and AI agents",
+    "summary": "Three AI concepts for student developers, with Microsoft Learn resources on language models, clear prompts and tools that support agent workflows.",
+    "url": "https://www.linkedin.com/posts/kavindu-oshadha-perera_generativeai-microsoftlearn-artificialintelligence-share-7519759271895613440-Bkf3/"
   },
   {
-    "id": "7517890522225676288",
-    "date": "2026-10-19",
-    "category": "TECH OPPORTUNITY RADAR",
-    "title": "Hostinger Restore: build for a greener future",
-    "summary": "Episode 001 explores a hosting and website-building opportunity for eligible environmental projects. Application and approval required.",
-    "url": "https://www.linkedin.com/posts/kavindu-oshadha-perera_techopportunityradar-hostingerrestore-techforgood-share-7517890522225676288-26ID/"
+    "id": "7519405839930064896",
+    "date": "2026-10-23",
+    "category": "AZURE COST MANAGEMENT",
+    "title": "Understand Azure VM states and ongoing charges",
+    "summary": "Stopped and deallocated VMs have different compute billing behavior. Check resource states and monitor costs; disks and networking may still incur charges.",
+    "url": "https://www.linkedin.com/posts/kavindu-oshadha-perera_microsoftazure-cloudcomputing-azurevirtualmachines-share-7519405839930064896-4h87/"
   }
 ]
