@@ -1,26 +1,26 @@
 [
   {
+    "id": "7521157563766312960",
+    "date": "2026-10-28",
+    "category": "STUDENT PROJECT",
+    "title": "SLTC LMS Alerts for assignments and deadline changes",
+    "summary": "An independent student project using Apps Script, Sheets and JavaScript to send LMS alerts for courses available to its shared monitor.",
+    "url": "https://www.linkedin.com/posts/kavindu-oshadha-perera_sltc-studentproject-webdevelopment-ugcPost-7521157563766312960-13U0/"
+  },
+  {
+    "id": "7520856523724718081",
+    "date": "2026-10-27",
+    "category": "AZURE MONITORING",
+    "title": "Monitor application health with Azure tools",
+    "summary": "Learning notes on availability, performance and failures using Azure Monitor and Application Insights, with telemetry setup and cost considerations.",
+    "url": "https://www.linkedin.com/posts/kavindu-oshadha-perera_azuremonitor-applicationinsights-cloudcomputing-share-7520856523724718081-Lp0x/"
+  },
+  {
     "id": "7520331986578690048",
     "date": "2026-10-26",
     "category": "DEVOPS & AUTOMATION",
     "title": "Automate builds and Azure deployments with GitHub Actions",
     "summary": "A CI/CD learning roadmap: trigger workflows on code pushes, build and test projects, then deploy to Azure with secure credentials and checks.",
     "url": "https://www.linkedin.com/posts/kavindu-oshadha-perera_githubactions-devops-cicd-share-7520331986578690048-_jrG/"
-  },
-  {
-    "id": "7519759271895613440",
-    "date": "2026-10-24",
-    "category": "AI LEARNING",
-    "title": "Explore LLMs, prompt engineering and AI agents",
-    "summary": "Three AI concepts for student developers, with Microsoft Learn resources on language models, clear prompts and tools that support agent workflows.",
-    "url": "https://www.linkedin.com/posts/kavindu-oshadha-perera_generativeai-microsoftlearn-artificialintelligence-share-7519759271895613440-Bkf3/"
-  },
-  {
-    "id": "7519405839930064896",
-    "date": "2026-10-23",
-    "category": "AZURE COST MANAGEMENT",
-    "title": "Understand Azure VM states and ongoing charges",
-    "summary": "Stopped and deallocated VMs have different compute billing behavior. Check resource states and monitor costs; disks and networking may still incur charges.",
-    "url": "https://www.linkedin.com/posts/kavindu-oshadha-perera_microsoftazure-cloudcomputing-azurevirtualmachines-share-7519405839930064896-4h87/"
   }
 ]

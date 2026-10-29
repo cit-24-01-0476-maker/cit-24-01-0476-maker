@@ -35,9 +35,9 @@ Explore my work at <a href="https://oshadha.live">oshadha.live</a><br>
 <!-- LINKEDIN-POSTS:START -->
 <h2 align="center">Latest on LinkedIn</h2>
 <p align="center">Cloud learning notes, practical projects and developer opportunities.</p>
-<p align="center"><a href="https://www.linkedin.com/posts/kavindu-oshadha-perera_githubactions-devops-cicd-share-7520331986578690048-_jrG/"><img width="100%" src="./assets/linkedin-post-1.svg?v=7520331986578690048" alt="Automate builds and Azure deployments with GitHub Actions" /></a></p>
-<p align="center"><a href="https://www.linkedin.com/posts/kavindu-oshadha-perera_generativeai-microsoftlearn-artificialintelligence-share-7519759271895613440-Bkf3/"><img width="100%" src="./assets/linkedin-post-2.svg?v=7519759271895613440" alt="Explore LLMs, prompt engineering and AI agents" /></a></p>
-<p align="center"><a href="https://www.linkedin.com/posts/kavindu-oshadha-perera_microsoftazure-cloudcomputing-azurevirtualmachines-share-7519405839930064896-4h87/"><img width="100%" src="./assets/linkedin-post-3.svg?v=7519405839930064896" alt="Understand Azure VM states and ongoing charges" /></a></p>
+<p align="center"><a href="https://www.linkedin.com/posts/kavindu-oshadha-perera_sltc-studentproject-webdevelopment-ugcPost-7521157563766312960-13U0/"><img width="100%" src="./assets/linkedin-post-1.svg?v=7521157563766312960" alt="SLTC LMS Alerts for assignments and deadline changes" /></a></p>
+<p align="center"><a href="https://www.linkedin.com/posts/kavindu-oshadha-perera_azuremonitor-applicationinsights-cloudcomputing-share-7520856523724718081-Lp0x/"><img width="100%" src="./assets/linkedin-post-2.svg?v=7520856523724718081" alt="Monitor application health with Azure tools" /></a></p>
+<p align="center"><a href="https://www.linkedin.com/posts/kavindu-oshadha-perera_githubactions-devops-cicd-share-7520331986578690048-_jrG/"><img width="100%" src="./assets/linkedin-post-3.svg?v=7520331986578690048" alt="Automate builds and Azure deployments with GitHub Actions" /></a></p>
 <p align="center"><a href="https://www.linkedin.com/in/kavindu-oshadha-perera/recent-activity/all/">See all posts on LinkedIn →</a></p>
 <!-- LINKEDIN-POSTS:END -->
 

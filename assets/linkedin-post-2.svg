@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="356" viewBox="0 0 1600 356" role="img" aria-label="Explore LLMs, prompt engineering and AI agents">
-<title>Explore LLMs, prompt engineering and AI agents</title><desc>Three AI concepts for student developers, with Microsoft Learn resources on language models, clear prompts and tools that support agent workflows.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="356" viewBox="0 0 1600 356" role="img" aria-label="Monitor application health with Azure tools">
+<title>Monitor application health with Azure tools</title><desc>Learning notes on availability, performance and failures using Azure Monitor and Application Insights, with telemetry setup and cost considerations.</desc>
 <defs><linearGradient id="bg"><stop stop-color="#0b1220"/><stop offset="1" stop-color="#111c32"/></linearGradient><pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#22d3ee" stroke-opacity=".035"/></pattern></defs>
 <style>text{font-family:Segoe UI,Arial,sans-serif}.title{font-size:42px;font-weight:700;fill:#edf5ff}.body{font-size:26px;fill:#a6b5ce}</style>
 <rect x="1" y="1" width="1598" height="354" rx="24" fill="url(#bg)" stroke="#263852"/><rect width="1600" height="356" fill="url(#grid)" rx="24"/>
 <rect x="1" y="24" width="5" height="308" rx="2" fill="#22d3ee"/>
-<text x="64" y="65" fill="#22d3ee" font-size="19" letter-spacing="3">AI LEARNING</text>
-<rect x="1390" y="40" width="150" height="36" rx="18" fill="#22d3ee" fill-opacity=".10"/><text x="1465" y="65" text-anchor="middle" font-size="18" fill="#a5b4fc">2026-10-24</text>
-<text x="64" y="140" class="title">Explore LLMs, prompt engineering and AI agents</text><text x="64" y="212" class="body">Three AI concepts for student developers, with Microsoft Learn resources on language models,</text><text x="64" y="246" class="body">clear prompts and tools that support agent workflows.</text>
+<text x="64" y="65" fill="#22d3ee" font-size="19" letter-spacing="3">AZURE MONITORING</text>
+<rect x="1390" y="40" width="150" height="36" rx="18" fill="#22d3ee" fill-opacity=".10"/><text x="1465" y="65" text-anchor="middle" font-size="18" fill="#a5b4fc">2026-10-27</text>
+<text x="64" y="140" class="title">Monitor application health with Azure tools</text><text x="64" y="212" class="body">Learning notes on availability, performance and failures using Azure Monitor and Application</text><text x="64" y="246" class="body">Insights, with telemetry setup and cost considerations.</text>
 <line x1="64" y1="278" x2="1536" y2="278" stroke="#263852"/>
 <text x="64" y="321" font-size="20" fill="#94a3b8">Kavindu Oshadha Perera · LinkedIn</text><text x="1536" y="321" text-anchor="end" font-size="21" fill="#22d3ee">Read the post ↗</text>
 </svg>
